@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Core",
+    "\\Core\\MultiStoreIntegration.Domain",
+    "\\Infrastructure",
+    "\\Infrastructure\\MultiStoreIntegration.Persistence",
+    "\\Presentation",
+    "\\Presentation\\MultiStoreIntegration.API",
+    "\\Presentation\\MultiStoreIntegration.API\\MultiStoreIntegration.API"
   ],
-  "SelectedNode": "\\MultiStoreIntegration.sln",
+  "SelectedNode": "\\Infrastructure\\MultiStoreIntegration.Persistence",
   "PreviewInSolutionExplorer": false
 }
