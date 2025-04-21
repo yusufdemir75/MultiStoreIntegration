@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.persistence\\mongomigration\\mongomigrationinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|solutionrelative:infrastructure\\multistoreintegration.persistence\\mongomigration\\mongomigrationinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|solutionrelative:infrastructure\\multistoreintegration.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.persistence\\contexts\\store3mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|solutionrelative:infrastructure\\multistoreintegration.persistence\\contexts\\store3mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\mongodocuments\\stockdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\mongodocuments\\stockdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\mongodocuments\\saledocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\mongodocuments\\saledocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\mongodocuments\\returndocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\mongodocuments\\returndocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.persistence\\contexts\\store2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|solutionrelative:infrastructure\\multistoreintegration.persistence\\contexts\\store2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.persistence\\contexts\\store1dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|solutionrelative:infrastructure\\multistoreintegration.persistence\\contexts\\store1dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.persistence\\contexts\\multistoreintegrationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|solutionrelative:infrastructure\\multistoreintegration.persistence\\contexts\\multistoreintegrationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE10F74F-E070-43CD-AC77-751B3DE38235}|MultiStoreIntegration.API\\MultiStoreIntegration.API\\MultiStoreIntegration.API.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\multistoreintegration.api\\multistoreintegration.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE10F74F-E070-43CD-AC77-751B3DE38235}|MultiStoreIntegration.API\\MultiStoreIntegration.API\\MultiStoreIntegration.API.csproj|solutionrelative:multistoreintegration.api\\multistoreintegration.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE10F74F-E070-43CD-AC77-751B3DE38235}|MultiStoreIntegration.API\\MultiStoreIntegration.API\\MultiStoreIntegration.API.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\multistoreintegration.api\\multistoreintegration.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE10F74F-E070-43CD-AC77-751B3DE38235}|MultiStoreIntegration.API\\MultiStoreIntegration.API\\MultiStoreIntegration.API.csproj|solutionrelative:multistoreintegration.api\\multistoreintegration.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\repositories\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\repositories\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\repositories\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\repositories\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\users\\dmrys\\onedrive\\masa\u00FCst\u00FC\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\multistoreintegration.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\multistoreintegration.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MongoMigrationInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\MongoMigration\\MongoMigrationInitializer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\MongoMigration\\MongoMigrationInitializer.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\MongoMigration\\MongoMigrationInitializer.cs",
+              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Persistence\\MongoMigration\\MongoMigrationInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T00:02:05.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SaleDocument.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\SaleDocument.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\SaleDocument.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\SaleDocument.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\SaleDocument.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:30:00.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReturnDocument.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\ReturnDocument.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\ReturnDocument.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\ReturnDocument.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\ReturnDocument.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:29:48.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Store1DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store1DbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store1DbContext.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store1DbContext.cs",
+              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store1DbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowCIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T22:52:06.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\ServiceRegistration.cs",
+              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Persistence\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:10:59.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Store2DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store2DbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store2DbContext.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store2DbContext.cs",
+              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store2DbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwCMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T22:52:22.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StockDocument.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\StockDocument.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\StockDocument.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\StockDocument.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\StockDocument.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:29:39.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Store3MongoContext.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store3MongoContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store3MongoContext.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store3MongoContext.cs",
+              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store3MongoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:04:52.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MultiStoreIntegrationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\MultiStoreIntegrationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\MultiStoreIntegrationDbContext.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\MultiStoreIntegrationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\MultiStoreIntegrationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T22:24:07.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Entities\\Stock.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\Entities\\Stock.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Entities\\Stock.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\Entities\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:43:24.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\MultiStoreIntegration.API\\MultiStoreIntegration.API\\appsettings.json",
+              "RelativeDocumentMoniker": "MultiStoreIntegration.API\\MultiStoreIntegration.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\MultiStoreIntegration.API\\MultiStoreIntegration.API\\appsettings.json",
+              "RelativeToolTip": "MultiStoreIntegration.API\\MultiStoreIntegration.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-20T22:55:27.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\MultiStoreIntegration.API\\MultiStoreIntegration.API\\Program.cs",
+              "RelativeDocumentMoniker": "MultiStoreIntegration.API\\MultiStoreIntegration.API\\Program.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\MultiStoreIntegration.API\\MultiStoreIntegration.API\\Program.cs",
+              "RelativeToolTip": "MultiStoreIntegration.API\\MultiStoreIntegration.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:24:31.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Entities\\Sale.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\Entities\\Sale.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Entities\\Sale.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\Entities\\Sale.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:51:55.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Entities\\common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\Entities\\common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Entities\\common\\BaseEntity.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\Entities\\common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:41:08.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:23:01.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IWriteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\IWriteRepository.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\IWriteRepository.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\IWriteRepository.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Repositories\\IWriteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:22:48.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\IReadRepository.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\IReadRepository.cs",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\IReadRepository.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Repositories\\IReadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:22:33.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MultiStoreIntegration.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj",
+              "ToolTip": "C:\\Users\\dmrys\\OneDrive\\Masa\u00FCst\u00FC\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-20T20:15:08.051Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

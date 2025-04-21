@@ -1,0 +1,11 @@
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\bin\Debug\net8.0\MultiStoreIntegration.Application.deps.json
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\bin\Debug\net8.0\MultiStoreIntegration.Application.dll
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\bin\Debug\net8.0\MultiStoreIntegration.Application.pdb
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\obj\Debug\net8.0\MultiStoreIntegration.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\obj\Debug\net8.0\MultiStoreIntegration.Application.AssemblyInfoInputs.cache
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\obj\Debug\net8.0\MultiStoreIntegration.Application.AssemblyInfo.cs
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\obj\Debug\net8.0\MultiStoreIntegration.Application.csproj.CoreCompileInputs.cache
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\obj\Debug\net8.0\MultiStoreIntegration.Application.dll
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\obj\Debug\net8.0\refint\MultiStoreIntegration.Application.dll
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\obj\Debug\net8.0\MultiStoreIntegration.Application.pdb
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\obj\Debug\net8.0\ref\MultiStoreIntegration.Application.dll

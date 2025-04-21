@@ -1,0 +1,11 @@
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Infrastructure\bin\Debug\net8.0\MultiStoreIntegration.Infrastructure.deps.json
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Infrastructure\bin\Debug\net8.0\MultiStoreIntegration.Infrastructure.dll
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Infrastructure\bin\Debug\net8.0\MultiStoreIntegration.Infrastructure.pdb
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Infrastructure\obj\Debug\net8.0\MultiStoreIntegration.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Infrastructure\obj\Debug\net8.0\MultiStoreIntegration.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Infrastructure\obj\Debug\net8.0\MultiStoreIntegration.Infrastructure.AssemblyInfo.cs
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Infrastructure\obj\Debug\net8.0\MultiStoreIntegration.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Infrastructure\obj\Debug\net8.0\MultiStoreIntegration.Infrastructure.dll
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Infrastructure\obj\Debug\net8.0\refint\MultiStoreIntegration.Infrastructure.dll
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Infrastructure\obj\Debug\net8.0\MultiStoreIntegration.Infrastructure.pdb
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Infrastructure\obj\Debug\net8.0\ref\MultiStoreIntegration.Infrastructure.dll

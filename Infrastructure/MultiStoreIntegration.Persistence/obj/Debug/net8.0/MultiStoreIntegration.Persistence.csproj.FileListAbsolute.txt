@@ -1,0 +1,17 @@
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\bin\Debug\net8.0\MultiStoreIntegration.Persistence.deps.json
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\bin\Debug\net8.0\MultiStoreIntegration.Persistence.runtimeconfig.json
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\bin\Debug\net8.0\MultiStoreIntegration.Persistence.dll
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\bin\Debug\net8.0\MultiStoreIntegration.Persistence.pdb
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\bin\Debug\net8.0\MultiStoreIntegration.Domain.dll
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\bin\Debug\net8.0\MultiStoreIntegration.Domain.pdb
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\obj\Debug\net8.0\MultiStoreIntegration.Persistence.csproj.AssemblyReference.cache
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\obj\Debug\net8.0\MultiStoreIntegration.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\obj\Debug\net8.0\MultiStoreIntegration.Persistence.AssemblyInfoInputs.cache
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\obj\Debug\net8.0\MultiStoreIntegration.Persistence.AssemblyInfo.cs
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\obj\Debug\net8.0\MultiStoreIntegration.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\obj\Debug\net8.0\MultiSto.600D0438.Up2Date
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\obj\Debug\net8.0\MultiStoreIntegration.Persistence.dll
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\obj\Debug\net8.0\refint\MultiStoreIntegration.Persistence.dll
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\obj\Debug\net8.0\MultiStoreIntegration.Persistence.pdb
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\obj\Debug\net8.0\MultiStoreIntegration.Persistence.genruntimeconfig.cache
+C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Infrastructure\MultiStoreIntegration.Persistence\obj\Debug\net8.0\ref\MultiStoreIntegration.Persistence.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HZBMzpNXFQdbSU9uJx/DsksmG5O7cMvghTTpCUt5wEs=",
+  "Source": "MultiStoreIntegration.API",
+  "BasePath": "_content/MultiStoreIntegration.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

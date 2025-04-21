@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7CD6BBDF-FF89-4629-BB7F-8A37AC1B3DE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4A47C3EA-BA61-4756-B6B9-B29EDE50C681}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{AF98297F-59A5-4F6F-AD14-75C78151EC3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiStoreIntegration.Domain", "Core\MultiStoreIntegration.Domain\MultiStoreIntegration.Domain.csproj", "{FF0C9E15-7928-4062-BC30-3C58C80FB623}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiStoreIntegration.Application", "Core\MultiStoreIntegration.Application\MultiStoreIntegration.Application.csproj", "{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiStoreIntegration.Persistence", "Infrastructure\MultiStoreIntegration.Persistence\MultiStoreIntegration.Persistence.csproj", "{1A75D98B-50E5-4C56-923E-A97FF45376B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiStoreIntegration.Infrastructure", "Infrastructure\MultiStoreIntegration.Infrastructure\MultiStoreIntegration.Infrastructure.csproj", "{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiStoreIntegration.API", "MultiStoreIntegration.API\MultiStoreIntegration.API\MultiStoreIntegration.API.csproj", "{DE10F74F-E070-43CD-AC77-751B3DE38235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF0C9E15-7928-4062-BC30-3C58C80FB623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0C9E15-7928-4062-BC30-3C58C80FB623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0C9E15-7928-4062-BC30-3C58C80FB623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0C9E15-7928-4062-BC30-3C58C80FB623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A75D98B-50E5-4C56-923E-A97FF45376B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A75D98B-50E5-4C56-923E-A97FF45376B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A75D98B-50E5-4C56-923E-A97FF45376B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A75D98B-50E5-4C56-923E-A97FF45376B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE10F74F-E070-43CD-AC77-751B3DE38235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE10F74F-E070-43CD-AC77-751B3DE38235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE10F74F-E070-43CD-AC77-751B3DE38235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE10F74F-E070-43CD-AC77-751B3DE38235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF0C9E15-7928-4062-BC30-3C58C80FB623} = {7CD6BBDF-FF89-4629-BB7F-8A37AC1B3DE5}
+		{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64} = {7CD6BBDF-FF89-4629-BB7F-8A37AC1B3DE5}
+		{1A75D98B-50E5-4C56-923E-A97FF45376B2} = {4A47C3EA-BA61-4756-B6B9-B29EDE50C681}
+		{47CB9E2C-FA04-4AAB-A726-FCA237B1D325} = {4A47C3EA-BA61-4756-B6B9-B29EDE50C681}
+		{DE10F74F-E070-43CD-AC77-751B3DE38235} = {AF98297F-59A5-4F6F-AD14-75C78151EC3F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77E83624-E536-46B8-A88C-7E236FB20CB4}
+	EndGlobalSection
+EndGlobal
