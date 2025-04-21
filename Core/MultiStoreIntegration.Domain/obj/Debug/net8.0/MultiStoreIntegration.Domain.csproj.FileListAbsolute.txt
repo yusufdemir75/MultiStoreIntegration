@@ -10,3 +10,16 @@ C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\C
 C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\obj\Debug\net8.0\refint\MultiStoreIntegration.Domain.dll
 C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\obj\Debug\net8.0\MultiStoreIntegration.Domain.pdb
 C:\Users\dmrys\OneDrive\Masaüstü\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\obj\Debug\net8.0\ref\MultiStoreIntegration.Domain.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\bin\Debug\net8.0\MultiStoreIntegration.Domain.deps.json
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\bin\Debug\net8.0\MultiStoreIntegration.Domain.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\bin\Debug\net8.0\MultiStoreIntegration.Domain.pdb
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\obj\Debug\net8.0\MultiStoreIntegration.Domain.csproj.AssemblyReference.cache
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\obj\Debug\net8.0\MultiStoreIntegration.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\obj\Debug\net8.0\MultiStoreIntegration.Domain.AssemblyInfoInputs.cache
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\obj\Debug\net8.0\MultiStoreIntegration.Domain.AssemblyInfo.cs
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\obj\Debug\net8.0\MultiStoreIntegration.Domain.csproj.CoreCompileInputs.cache
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\obj\Debug\net8.0\MultiStoreIntegration.Domain.sourcelink.json
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\obj\Debug\net8.0\MultiStoreIntegration.Domain.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\obj\Debug\net8.0\refint\MultiStoreIntegration.Domain.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\obj\Debug\net8.0\MultiStoreIntegration.Domain.pdb
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Domain\obj\Debug\net8.0\ref\MultiStoreIntegration.Domain.dll

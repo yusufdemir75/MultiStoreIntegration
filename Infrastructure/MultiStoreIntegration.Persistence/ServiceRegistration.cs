@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MultiStoreIntegration.Persistence.Contexts;
 using Microsoft.Extensions.Configuration;
+using MultiStoreIntegration.Persistence.Migrations.Mongo;
 
 namespace MultiStoreIntegration.Persistence
 {
@@ -21,6 +22,8 @@ namespace MultiStoreIntegration.Persistence
                 options.UseNpgsql(configuration.GetConnectionString("Store2Db")));
 
             services.AddSingleton<Store3MongoContext>();
+            services.AddSingleton<MongoMigrationRunner>();
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
-using MultiStoreIntegration.Domain.MongoDocuments;  // Kendi Domain MongoDocuments namespace'i
+using MultiStoreIntegration.Domain.MongoDocuments;
 
 namespace MultiStoreIntegration.Persistence.Contexts
 {
@@ -18,5 +18,7 @@ namespace MultiStoreIntegration.Persistence.Contexts
         public IMongoCollection<StockDocument> Products => _database.GetCollection<StockDocument>("Products");
         public IMongoCollection<SaleDocument> Sales => _database.GetCollection<SaleDocument>("Sales");
         public IMongoCollection<Domain.MongoDocuments.ReturnDocument> Returns => _database.GetCollection<Domain.MongoDocuments.ReturnDocument>("Returns");
+        public IMongoDatabase GetDatabase() => _database;
+
     }
 }

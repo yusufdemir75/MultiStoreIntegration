@@ -1,4 +1,5 @@
 using MultiStoreIntegration.Persistence;
+using MultiStoreIntegration.Persistence.Migrations.Mongo;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+using (var scope = app.Services.CreateScope())
+{
+    var migrationRunner = scope.ServiceProvider.GetRequiredService<MongoMigrationRunner>();
+    await migrationRunner.RunMigrationsAsync();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

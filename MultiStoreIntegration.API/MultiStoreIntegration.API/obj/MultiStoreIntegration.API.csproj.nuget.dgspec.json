@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\MultiStoreIntegration.API\\MultiStoreIntegration.API\\MultiStoreIntegration.API.csproj": {}
+    "C:\\MultiStoreIntegration\\MultiStoreIntegration\\MultiStoreIntegration.API\\MultiStoreIntegration.API\\MultiStoreIntegration.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj": {
+    "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj",
+        "projectUniqueName": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj",
         "projectName": "MultiStoreIntegration.Application",
-        "projectPath": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj",
+        "projectPath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj",
         "packagesPath": "C:\\Users\\dmrys\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\obj\\",
+        "outputPath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dmrys\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj": {
+    "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj",
+        "projectUniqueName": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj",
         "projectName": "MultiStoreIntegration.Domain",
-        "projectPath": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj",
+        "projectPath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj",
         "packagesPath": "C:\\Users\\dmrys\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\obj\\",
+        "outputPath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dmrys\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -132,14 +132,14 @@
         }
       }
     },
-    "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj": {
+    "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj",
+        "projectUniqueName": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj",
         "projectName": "MultiStoreIntegration.Persistence",
-        "projectPath": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj",
+        "projectPath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj",
         "packagesPath": "C:\\Users\\dmrys\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\obj\\",
+        "outputPath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dmrys\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -157,8 +157,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj": {
-                "projectPath": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj"
+              "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj": {
+                "projectPath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj"
               }
             }
           }
@@ -200,6 +200,10 @@
               "target": "Package",
               "version": "[3.3.0, )"
             },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.30.0, )"
+            },
             "MongoDBMigrations": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -229,14 +233,14 @@
         }
       }
     },
-    "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\MultiStoreIntegration.API\\MultiStoreIntegration.API\\MultiStoreIntegration.API.csproj": {
+    "C:\\MultiStoreIntegration\\MultiStoreIntegration\\MultiStoreIntegration.API\\MultiStoreIntegration.API\\MultiStoreIntegration.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\MultiStoreIntegration.API\\MultiStoreIntegration.API\\MultiStoreIntegration.API.csproj",
+        "projectUniqueName": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\MultiStoreIntegration.API\\MultiStoreIntegration.API\\MultiStoreIntegration.API.csproj",
         "projectName": "MultiStoreIntegration.API",
-        "projectPath": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\MultiStoreIntegration.API\\MultiStoreIntegration.API\\MultiStoreIntegration.API.csproj",
+        "projectPath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\MultiStoreIntegration.API\\MultiStoreIntegration.API\\MultiStoreIntegration.API.csproj",
         "packagesPath": "C:\\Users\\dmrys\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\MultiStoreIntegration.API\\MultiStoreIntegration.API\\obj\\",
+        "outputPath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\MultiStoreIntegration.API\\MultiStoreIntegration.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dmrys\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -254,11 +258,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj": {
-                "projectPath": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj"
+              "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj": {
+                "projectPath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj"
               },
-              "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj": {
-                "projectPath": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj"
+              "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj": {
+                "projectPath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj"
               }
             }
           }

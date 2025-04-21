@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eRsu9PlGy8Q=",
+  "dgSpecHash": "r3g0rYG1tlc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj",
+  "projectFilePath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dmrys\\.nuget\\packages\\mongodb.bson\\3.3.0\\mongodb.bson.3.3.0.nupkg.sha512",
     "C:\\Users\\dmrys\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",

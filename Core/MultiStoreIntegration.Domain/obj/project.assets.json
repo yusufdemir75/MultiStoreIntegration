@@ -130,11 +130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj",
+      "projectUniqueName": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj",
       "projectName": "MultiStoreIntegration.Domain",
-      "projectPath": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj",
+      "projectPath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj",
       "packagesPath": "C:\\Users\\dmrys\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dmrys\\OneDrive\\Masaüstü\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\obj\\",
+      "outputPath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dmrys\\AppData\\Roaming\\NuGet\\NuGet.Config",
