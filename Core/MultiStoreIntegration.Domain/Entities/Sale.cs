@@ -15,7 +15,7 @@ namespace MultiStoreIntegration.Domain.Entities
         public Stock Product { get; set; }
 
         public int Quantity { get; set; }
-        public int TotalPrice { get; set; }
+        public float TotalPrice { get; set; }
 
         public string CustomerName { get; set; }
         public string CustomerPhone { get; set; }

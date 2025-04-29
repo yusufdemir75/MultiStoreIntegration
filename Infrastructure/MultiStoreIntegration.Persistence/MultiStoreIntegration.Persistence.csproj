@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\MultiStoreIntegration.Application\MultiStoreIntegration.Application.csproj" />
     <ProjectReference Include="..\..\Core\MultiStoreIntegration.Domain\MultiStoreIntegration.Domain.csproj" />
   </ItemGroup>
 

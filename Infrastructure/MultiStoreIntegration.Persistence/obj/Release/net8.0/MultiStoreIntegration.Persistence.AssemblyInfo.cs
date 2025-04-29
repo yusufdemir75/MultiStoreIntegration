@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiStoreIntegration.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e61b088a048a300b5b39c66795c6bf90b7a41a62")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+790b6028baec7dc75f6c6f0fddfc4a20b21ba112")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiStoreIntegration.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiStoreIntegration.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

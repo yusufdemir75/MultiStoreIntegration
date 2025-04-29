@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "Integration.API.Controllers.SaleController",
+    "Method": "CreateSale",
+    "RelativePath": "api/Sale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createSaleCommandRequest",
+        "Type": "MultiStoreIntegration.Application.Features.Commands.Sale.CreateSale.CreateSaleCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Integration.API.Controllers.Store1StockController",
+    "Method": "CreateStock",
+    "RelativePath": "api/Store1Stock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createStockCommandRequest",
+        "Type": "MultiStoreIntegration.Application.Features.Commands.Stock.Store1CreateStock.Store1CreateStockCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Integration.API.Controllers.Store3StockController",
+    "Method": "CreateStock",
+    "RelativePath": "api/Store3Stock/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MultiStoreIntegration.Application.Features.Commands.Stock.Store3CreateStock.Store3CreateStockCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

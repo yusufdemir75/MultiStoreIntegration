@@ -3,6 +3,9 @@ using MongoDB.Driver;
 using MultiStoreIntegration.Persistence.Contexts;
 using MultiStoreIntegration.Persistence.Migrations.Mongo.Interfaces;
 using MultiStoreIntegration.Persistence.Migrations.Mongo.Migrations;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace MultiStoreIntegration.Persistence.Migrations.Mongo
 {
@@ -13,12 +16,14 @@ namespace MultiStoreIntegration.Persistence.Migrations.Mongo
 
         public MongoMigrationRunner(Store3MongoContext context)
         {
-            _database = context.GetDatabase();
+            // Store3MongoContext üzerinden _database'e doğrudan erişim sağlıyoruz
+            _database = context.Database;
             _migrations = new List<IMongoMigration>
             {
-                new CreateInitialCollections()
-                // buraya diğer migration sınıfları da eklenecek
+                // Buraya diğer migration sınıfları da eklenebilir
             };
+
+           
         }
 
         public async Task RunMigrationsAsync()

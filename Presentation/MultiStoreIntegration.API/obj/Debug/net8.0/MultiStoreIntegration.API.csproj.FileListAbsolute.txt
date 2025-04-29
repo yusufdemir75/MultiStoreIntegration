@@ -1,0 +1,8 @@
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\MultiStoreIntegration.API\MultiStoreIntegration.API\obj\Debug\net8.0\MultiStoreIntegration.API.csproj.AssemblyReference.cache
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\MultiStoreIntegration.API\MultiStoreIntegration.API\obj\Debug\net8.0\MultiStoreIntegration.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\MultiStoreIntegration.API\MultiStoreIntegration.API\obj\Debug\net8.0\MultiStoreIntegration.API.AssemblyInfoInputs.cache
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\MultiStoreIntegration.API\MultiStoreIntegration.API\obj\Debug\net8.0\MultiStoreIntegration.API.AssemblyInfo.cs
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\MultiStoreIntegration.API\MultiStoreIntegration.API\obj\Debug\net8.0\MultiStoreIntegration.API.csproj.CoreCompileInputs.cache
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\MultiStoreIntegration.API\MultiStoreIntegration.API\obj\Debug\net8.0\MultiStoreIntegration.API.MvcApplicationPartsAssemblyInfo.cs
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\MultiStoreIntegration.API\MultiStoreIntegration.API\obj\Debug\net8.0\MultiStoreIntegration.API.MvcApplicationPartsAssemblyInfo.cache
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\MultiStoreIntegration.API\MultiStoreIntegration.API\obj\Debug\net8.0\MultiStoreIntegration.API.sourcelink.json

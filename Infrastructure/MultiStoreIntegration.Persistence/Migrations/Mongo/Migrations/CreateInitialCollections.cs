@@ -13,8 +13,8 @@ namespace MultiStoreIntegration.Persistence.Migrations.Mongo.Migrations
         {
             var collectionNames = await database.ListCollectionNames().ToListAsync();
 
-            if (!collectionNames.Contains("Products"))
-                await database.CreateCollectionAsync("Products");
+            if (!collectionNames.Contains("Stocks"))
+                await database.CreateCollectionAsync("Stocks");
 
             if (!collectionNames.Contains("Sales"))
                 await database.CreateCollectionAsync("Sales");
