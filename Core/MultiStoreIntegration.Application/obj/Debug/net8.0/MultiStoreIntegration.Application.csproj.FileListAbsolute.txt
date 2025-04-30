@@ -25,3 +25,7 @@ C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Applic
 C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\obj\Debug\net8.0\refint\MultiStoreIntegration.Application.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\obj\Debug\net8.0\MultiStoreIntegration.Application.pdb
 C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\obj\Debug\net8.0\ref\MultiStoreIntegration.Application.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\bin\Debug\net8.0\MultiStoreIntegration.Infrastructure.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\bin\Debug\net8.0\MultiStoreIntegration.Persistence.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\bin\Debug\net8.0\MultiStoreIntegration.Infrastructure.pdb
+C:\MultiStoreIntegration\MultiStoreIntegration\Core\MultiStoreIntegration.Application\bin\Debug\net8.0\MultiStoreIntegration.Persistence.pdb

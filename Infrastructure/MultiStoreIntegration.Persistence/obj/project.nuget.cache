@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "m7UjpYFqy/0=",
+  "dgSpecHash": "+/4Ci70bNpk=",
   "success": true,
   "projectFilePath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\dmrys\\.nuget\\packages\\buildalyzer.logger\\2.6.0\\buildalyzer.logger.2.6.0.nupkg.sha512",
     "C:\\Users\\dmrys\\.nuget\\packages\\buildalyzer.workspaces\\2.6.0\\buildalyzer.workspaces.2.6.0.nupkg.sha512",
     "C:\\Users\\dmrys\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\dmrys\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\dmrys\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\dmrys\\.nuget\\packages\\lightinject\\5.4.0\\lightinject.5.4.0.nupkg.sha512",
     "C:\\Users\\dmrys\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",

@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Serializers;
 
 
 namespace MultiStoreIntegration.Domain.MongoDocuments
@@ -9,6 +10,8 @@ namespace MultiStoreIntegration.Domain.MongoDocuments
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public ObjectId Id { get; set; }
+
+        public Guid RelationalId { get; set; }
 
         public string ProductCode { get; set; }
         public string Category { get; set; }

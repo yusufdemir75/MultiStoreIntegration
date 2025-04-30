@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\store1createstock\\store1createstockcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\store1createstock\\store1createstockcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D3ED121-FB38-4353-A10F-1BBD267D2577}|Presentation\\Integration.API\\Integration.API.csproj|c:\\multistoreintegration\\multistoreintegration\\presentation\\integration.api\\controllers\\store2stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3ED121-FB38-4353-A10F-1BBD267D2577}|Presentation\\Integration.API\\Integration.API.csproj|solutionrelative:presentation\\integration.api\\controllers\\store2stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D3ED121-FB38-4353-A10F-1BBD267D2577}|Presentation\\Integration.API\\Integration.API.csproj|c:\\multistoreintegration\\multistoreintegration\\presentation\\integration.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D3ED121-FB38-4353-A10F-1BBD267D2577}|Presentation\\Integration.API\\Integration.API.csproj|solutionrelative:presentation\\integration.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\events\\store1\\store1salecreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\events\\store1\\store1salecreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|c:\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|solutionrelative:infrastructure\\multistoreintegration.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}|Infrastructure\\MultiStoreIntegration.Infrastructure\\MultiStoreIntegration.Infrastructure.csproj|c:\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.infrastructure\\events\\store1\\store1salecreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}|Infrastructure\\MultiStoreIntegration.Infrastructure\\MultiStoreIntegration.Infrastructure.csproj|solutionrelative:infrastructure\\multistoreintegration.infrastructure\\events\\store1\\store1salecreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}|Infrastructure\\MultiStoreIntegration.Infrastructure\\MultiStoreIntegration.Infrastructure.csproj|c:\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.infrastructure\\events\\warehousesyncafterstockcreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}|Infrastructure\\MultiStoreIntegration.Infrastructure\\MultiStoreIntegration.Infrastructure.csproj|solutionrelative:infrastructure\\multistoreintegration.infrastructure\\events\\warehousesyncafterstockcreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\mongodocuments\\saledocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\mongodocuments\\saledocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\sale\\create\\store1createsale\\store1createsalecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\sale\\create\\store1createsale\\store1createsalecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}|Infrastructure\\MultiStoreIntegration.Infrastructure\\MultiStoreIntegration.Infrastructure.csproj|c:\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.infrastructure\\events\\store1\\warehousesyncafterstore1stockcreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}|Infrastructure\\MultiStoreIntegration.Infrastructure\\MultiStoreIntegration.Infrastructure.csproj|solutionrelative:infrastructure\\multistoreintegration.infrastructure\\events\\store1\\warehousesyncafterstore1stockcreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\create\\store1createstock\\store1createstockcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\create\\store1createstock\\store1createstockcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|c:\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.persistence\\migrations\\mongo\\migrations\\warehousecreateinitialcollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|solutionrelative:infrastructure\\multistoreintegration.persistence\\migrations\\mongo\\migrations\\warehousecreateinitialcollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\events\\store1\\store1stockcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\events\\store1\\store1stockcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}|Infrastructure\\MultiStoreIntegration.Infrastructure\\MultiStoreIntegration.Infrastructure.csproj|c:\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.infrastructure\\events\\store1\\warehousesyncafterstore1stockupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}|Infrastructure\\MultiStoreIntegration.Infrastructure\\MultiStoreIntegration.Infrastructure.csproj|solutionrelative:infrastructure\\multistoreintegration.infrastructure\\events\\store1\\warehousesyncafterstore1stockupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3ED121-FB38-4353-A10F-1BBD267D2577}|Presentation\\Integration.API\\Integration.API.csproj|c:\\multistoreintegration\\multistoreintegration\\presentation\\integration.api\\controllers\\stor1salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3ED121-FB38-4353-A10F-1BBD267D2577}|Presentation\\Integration.API\\Integration.API.csproj|solutionrelative:presentation\\integration.api\\controllers\\stor1salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\mongodocuments\\stockdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,40 +55,100 @@
       "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\mongodocuments\\returndocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\events\\store1stockcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\events\\store1stockcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\events\\store1\\store1stockupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\events\\store1\\store1stockupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\events\\store1stockcreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\events\\store1stockcreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\events\\store2\\store2stockupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\events\\store2\\store2stockupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\multistoreintegration.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\multistoreintegration.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\events\\store2\\store2stockcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\events\\store2\\store2stockcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\sale\\create\\store1createsale\\store1createsalecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\sale\\create\\store1createsale\\store1createsalecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\sale\\create\\store1createsale\\store1createsalecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\sale\\create\\store1createsale\\store1createsalecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\common\\validations\\store1createsalevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\common\\validations\\store1createsalevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\create\\store1createstock\\store1createstockcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\create\\store1createstock\\store1createstockcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D3ED121-FB38-4353-A10F-1BBD267D2577}|Presentation\\Integration.API\\Integration.API.csproj|c:\\multistoreintegration\\multistoreintegration\\presentation\\integration.api\\controllers\\store1stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D3ED121-FB38-4353-A10F-1BBD267D2577}|Presentation\\Integration.API\\Integration.API.csproj|solutionrelative:presentation\\integration.api\\controllers\\store1stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|c:\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|solutionrelative:infrastructure\\multistoreintegration.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|c:\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.persistence\\contexts\\store2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|solutionrelative:infrastructure\\multistoreintegration.persistence\\contexts\\store2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}|Infrastructure\\MultiStoreIntegration.Infrastructure\\MultiStoreIntegration.Infrastructure.csproj|c:\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.infrastructure\\events\\store2\\warehousesyncafterstore2stockcreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}|Infrastructure\\MultiStoreIntegration.Infrastructure\\MultiStoreIntegration.Infrastructure.csproj|solutionrelative:infrastructure\\multistoreintegration.infrastructure\\events\\store2\\warehousesyncafterstore2stockcreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\create\\store2createstock\\store2createstockcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\create\\store2createstock\\store2createstockcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\create\\store1createstock\\store1createstockcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\create\\store1createstock\\store1createstockcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\create\\store2createstock\\store2createstockcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\create\\store2createstock\\store2createstockcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\create\\store2createstock\\store2createstockcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\create\\store2createstock\\store2createstockcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}|Infrastructure\\MultiStoreIntegration.Infrastructure\\MultiStoreIntegration.Infrastructure.csproj|c:\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.infrastructure\\events\\store2\\warehousesyncafterstore2stockupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CB9E2C-FA04-4AAB-A726-FCA237B1D325}|Infrastructure\\MultiStoreIntegration.Infrastructure\\MultiStoreIntegration.Infrastructure.csproj|solutionrelative:infrastructure\\multistoreintegration.infrastructure\\events\\store2\\warehousesyncafterstore2stockupdatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\update\\store1updatestock\\store1updatestockcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\update\\store1updatestock\\store1updatestockcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\update\\store1updatestock\\store1updatestockcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\update\\store1updatestock\\store1updatestockcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\update\\store1updatestock\\store1updatestockcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\update\\store1updatestock\\store1updatestockcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3ED121-FB38-4353-A10F-1BBD267D2577}|Presentation\\Integration.API\\Integration.API.csproj|c:\\multistoreintegration\\multistoreintegration\\presentation\\integration.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3ED121-FB38-4353-A10F-1BBD267D2577}|Presentation\\Integration.API\\Integration.API.csproj|solutionrelative:presentation\\integration.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\multistoreintegration.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\multistoreintegration.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|c:\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.persistence\\repositories\\store1\\store1writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|solutionrelative:infrastructure\\multistoreintegration.persistence\\repositories\\store1\\store1writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\store1createstock\\store1createstockcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\store1createstock\\store1createstockcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\store1createstock\\store1createstockcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\store1createstock\\store1createstockcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D3ED121-FB38-4353-A10F-1BBD267D2577}|Presentation\\Integration.API\\Integration.API.csproj|c:\\multistoreintegration\\multistoreintegration\\presentation\\integration.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -81,10 +169,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|c:\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.persistence\\contexts\\multistoreintegrationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|solutionrelative:infrastructure\\multistoreintegration.persistence\\contexts\\multistoreintegrationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|c:\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.persistence\\migrations\\mongo\\migrations\\addinitialindexes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|solutionrelative:infrastructure\\multistoreintegration.persistence\\migrations\\mongo\\migrations\\addinitialindexes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\repositories\\store2\\store2ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -135,16 +219,12 @@
       "RelativeMoniker": "D:0:0:{9D3ED121-FB38-4353-A10F-1BBD267D2577}|Presentation\\Integration.API\\Integration.API.csproj|solutionrelative:presentation\\integration.api\\controllers\\store3stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\store3createstock\\store3createstockcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\store3createstock\\store3createstockcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\create\\store3createstock\\store3createstockcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\create\\store3createstock\\store3createstockcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\store3createstock\\store3createstockcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\store3createstock\\store3createstockcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D3ED121-FB38-4353-A10F-1BBD267D2577}|Presentation\\Integration.API\\Integration.API.csproj|c:\\multistoreintegration\\multistoreintegration\\presentation\\integration.api\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D3ED121-FB38-4353-A10F-1BBD267D2577}|Presentation\\Integration.API\\Integration.API.csproj|solutionrelative:presentation\\integration.api\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\create\\store3createstock\\store3createstockcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\create\\store3createstock\\store3createstockcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A75D98B-50E5-4C56-923E-A97FF45376B2}|Infrastructure\\MultiStoreIntegration.Persistence\\MultiStoreIntegration.Persistence.csproj|c:\\multistoreintegration\\multistoreintegration\\infrastructure\\multistoreintegration.persistence\\repositories\\store1\\store1stock\\store1stockwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -179,24 +259,8 @@
       "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\repositories\\store1\\store1return\\store1ireturnreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\store3createstock\\store3createstockcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\store3createstock\\store3createstockcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\sale\\createsale\\createsalecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\sale\\createsale\\createsalecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\sale\\createsale\\createsalecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\sale\\createsale\\createsalecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\sale\\createsale\\createsalecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\sale\\createsale\\createsalecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\stock\\create\\store3createstock\\store3createstockcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\stock\\create\\store3createstock\\store3createstockcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\return\\createreturn\\createreturncommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -209,10 +273,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.application\\features\\commands\\return\\createreturn\\createreturncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84AD9D59-04D3-45B0-B9D9-FFB2FAED2D64}|Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj|solutionrelative:core\\multistoreintegration.application\\features\\commands\\return\\createreturn\\createreturncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|c:\\multistoreintegration\\multistoreintegration\\core\\multistoreintegration.domain\\mongodocuments\\saledocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF0C9E15-7928-4062-BC30-3C58C80FB623}|Core\\MultiStoreIntegration.Domain\\MultiStoreIntegration.Domain.csproj|solutionrelative:core\\multistoreintegration.domain\\mongodocuments\\saledocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -225,174 +285,445 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Store1StockCreatedEventHandler.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Events\\Store1StockCreatedEventHandler.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Events\\Store1StockCreatedEventHandler.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Events\\Store1StockCreatedEventHandler.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Events\\Store1StockCreatedEventHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T19:42:10.248Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\ServiceRegistration.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\ServiceRegistration.cs",
-              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Persistence\\ServiceRegistration.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Store1StockCreatedEvent.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Events\\Store1\\Store1StockCreatedEvent.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\Events\\Store1\\Store1StockCreatedEvent.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Events\\Store1\\Store1StockCreatedEvent.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\Events\\Store1\\Store1StockCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T16:36:51.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T19:38:38.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SaleDocument.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\SaleDocument.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\SaleDocument.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\SaleDocument.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\SaleDocument.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:40:40.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WareHouseCreateInitialCollections.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Migrations\\Mongo\\Migrations\\WareHouseCreateInitialCollections.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Migrations\\Mongo\\Migrations\\WareHouseCreateInitialCollections.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Migrations\\Mongo\\Migrations\\WareHouseCreateInitialCollections.cs",
+              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Persistence\\Migrations\\Mongo\\Migrations\\WareHouseCreateInitialCollections.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:03:23.429Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Program.cs",
-              "RelativeDocumentMoniker": "Presentation\\Integration.API\\Program.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Program.cs",
-              "RelativeToolTip": "Presentation\\Integration.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABiAAAAAAAAAA==",
+              "Title": "Store1SaleCreatedEvent.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Events\\Store1\\Store1SaleCreatedEvent.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\Events\\Store1\\Store1SaleCreatedEvent.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Events\\Store1\\Store1SaleCreatedEvent.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\Events\\Store1\\Store1SaleCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T16:18:02.697Z",
+              "WhenOpened": "2025-04-30T10:26:56.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Store2StockController.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Controllers\\Store2StockController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Integration.API\\Controllers\\Store2StockController.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Controllers\\Store2StockController.cs",
+              "RelativeToolTip": "Presentation\\Integration.API\\Controllers\\Store2StockController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:52:33.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Store1CreateSaleCommandHandler.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\Create\\Store1CreateSale\\Store1CreateSaleCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\Create\\Store1CreateSale\\Store1CreateSaleCommandHandler.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\Create\\Store1CreateSale\\Store1CreateSaleCommandHandler.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\Create\\Store1CreateSale\\Store1CreateSaleCommandHandler.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T19:57:51.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Store1SaleCreatedEventHandler.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store1\\Store1SaleCreatedEventHandler.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store1\\Store1SaleCreatedEventHandler.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store1\\Store1SaleCreatedEventHandler.cs",
+              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store1\\Store1SaleCreatedEventHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAtwDAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:30:59.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Store1CreateStockCommandHandler.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store1CreateStock\\Store1CreateStockCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store1CreateStock\\Store1CreateStockCommandHandler.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store1CreateStock\\Store1CreateStockCommandHandler.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store1CreateStock\\Store1CreateStockCommandHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwDAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:24:00.801Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "WarehouseSyncAfterStore1StockCreatedEventHandler.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store1\\WarehouseSyncAfterStore1StockCreatedEventHandler.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store1\\WarehouseSyncAfterStore1StockCreatedEventHandler.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store1\\WarehouseSyncAfterStore1StockCreatedEventHandler.cs",
+              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store1\\WarehouseSyncAfterStore1StockCreatedEventHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T09:17:48.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ReturnDocument.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\ReturnDocument.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\ReturnDocument.cs",
               "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\ReturnDocument.cs",
               "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\ReturnDocument.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T16:40:41.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T16:40:41.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MultiStoreIntegration.Application",
+              "DocumentIndex": 10,
+              "Title": "Stor1SaleController.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Controllers\\Stor1SaleController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Integration.API\\Controllers\\Stor1SaleController.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Controllers\\Stor1SaleController.cs",
+              "RelativeToolTip": "Presentation\\Integration.API\\Controllers\\Stor1SaleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T20:06:50.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WareHouseSyncAfterStore1StockUpdatedEvent.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store1\\WareHouseSyncAfterStore1StockUpdatedEvent.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store1\\WareHouseSyncAfterStore1StockUpdatedEvent.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store1\\WareHouseSyncAfterStore1StockUpdatedEvent.cs",
+              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store1\\WareHouseSyncAfterStore1StockUpdatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T12:54:53.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Store1StockUpdatedEvent.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Events\\Store1\\Store1StockUpdatedEvent.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\Events\\Store1\\Store1StockUpdatedEvent.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Events\\Store1\\Store1StockUpdatedEvent.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\Events\\Store1\\Store1StockUpdatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T12:53:57.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StockDocument.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\StockDocument.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\StockDocument.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\StockDocument.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\StockDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T11:36:06.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Store2StockUpdatedEvent.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Events\\Store2\\Store2StockUpdatedEvent.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\Events\\Store2\\Store2StockUpdatedEvent.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Events\\Store2\\Store2StockUpdatedEvent.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\Events\\Store2\\Store2StockUpdatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:39:04.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Store2StockCreatedEvent.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Events\\Store2\\Store2StockCreatedEvent.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\Events\\Store2\\Store2StockCreatedEvent.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Events\\Store2\\Store2StockCreatedEvent.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\Events\\Store2\\Store2StockCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:42:33.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Store1CreateSaleValidation.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Common\\Validations\\Store1CreateSaleValidation.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Common\\Validations\\Store1CreateSaleValidation.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Common\\Validations\\Store1CreateSaleValidation.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Common\\Validations\\Store1CreateSaleValidation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:19:53.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Store1CreateSaleCommandRequest.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\Create\\Store1CreateSale\\Store1CreateSaleCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\Create\\Store1CreateSale\\Store1CreateSaleCommandRequest.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\Create\\Store1CreateSale\\Store1CreateSaleCommandRequest.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\Create\\Store1CreateSale\\Store1CreateSaleCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T19:57:47.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Store1CreateSaleCommandResponse.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\Create\\Store1CreateSale\\Store1CreateSaleCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\Create\\Store1CreateSale\\Store1CreateSaleCommandResponse.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\Create\\Store1CreateSale\\Store1CreateSaleCommandResponse.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\Create\\Store1CreateSale\\Store1CreateSaleCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T19:57:50.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Store1CreateStockCommandRequest.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store1CreateStock\\Store1CreateStockCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store1CreateStock\\Store1CreateStockCommandRequest.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store1CreateStock\\Store1CreateStockCommandRequest.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store1CreateStock\\Store1CreateStockCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:49:49.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Store1StockController.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Controllers\\Store1StockController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Integration.API\\Controllers\\Store1StockController.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Controllers\\Store1StockController.cs",
+              "RelativeToolTip": "Presentation\\Integration.API\\Controllers\\Store1StockController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:45:47.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\ServiceRegistration.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\ServiceRegistration.cs",
+              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Persistence\\ServiceRegistration.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:36:51.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Entities\\Sale.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\Entities\\Sale.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Entities\\Sale.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\Entities\\Sale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:51:55.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Store2CreateStockCommandHandler.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store2CreateStock\\Store2CreateStockCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store2CreateStock\\Store2CreateStockCommandHandler.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store2CreateStock\\Store2CreateStockCommandHandler.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store2CreateStock\\Store2CreateStockCommandHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:44:05.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Store2DbContext.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store2DbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store2DbContext.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store2DbContext.cs",
+              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store2DbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T09:54:37.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Store1CreateStockCommandResponse.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store1CreateStock\\Store1CreateStockCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store1CreateStock\\Store1CreateStockCommandResponse.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store1CreateStock\\Store1CreateStockCommandResponse.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store1CreateStock\\Store1CreateStockCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T15:41:34.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Store2CreateStockCommandRequest.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store2CreateStock\\Store2CreateStockCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store2CreateStock\\Store2CreateStockCommandRequest.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store2CreateStock\\Store2CreateStockCommandRequest.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store2CreateStock\\Store2CreateStockCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:44:31.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WarehouseSyncAfterStore2StockCreatedEventHandler.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store2\\WarehouseSyncAfterStore2StockCreatedEventHandler.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store2\\WarehouseSyncAfterStore2StockCreatedEventHandler.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store2\\WarehouseSyncAfterStore2StockCreatedEventHandler.cs",
+              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store2\\WarehouseSyncAfterStore2StockCreatedEventHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:40:41.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Store2CreateStockCommandResponse.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store2CreateStock\\Store2CreateStockCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store2CreateStock\\Store2CreateStockCommandResponse.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store2CreateStock\\Store2CreateStockCommandResponse.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store2CreateStock\\Store2CreateStockCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:44:16.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "WareHouseSyncAfterStore2StockUpdatedEvent.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store2\\WareHouseSyncAfterStore2StockUpdatedEvent.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store2\\WareHouseSyncAfterStore2StockUpdatedEvent.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store2\\WareHouseSyncAfterStore2StockUpdatedEvent.cs",
+              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\Store2\\WareHouseSyncAfterStore2StockUpdatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T22:40:44.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Store1UpdateStockCommandHandler.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Update\\Store1UpdateStock\\Store1UpdateStockCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Update\\Store1UpdateStock\\Store1UpdateStockCommandHandler.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Update\\Store1UpdateStock\\Store1UpdateStockCommandHandler.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Update\\Store1UpdateStock\\Store1UpdateStockCommandHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAEwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T12:42:39.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Store1UpdateStockCommandRequest.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Update\\Store1UpdateStock\\Store1UpdateStockCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Update\\Store1UpdateStock\\Store1UpdateStockCommandRequest.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Update\\Store1UpdateStock\\Store1UpdateStockCommandRequest.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Update\\Store1UpdateStock\\Store1UpdateStockCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T12:42:27.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Store1UpdateStockCommandResponse.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Update\\Store1UpdateStock\\Store1UpdateStockCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Update\\Store1UpdateStock\\Store1UpdateStockCommandResponse.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Update\\Store1UpdateStock\\Store1UpdateStockCommandResponse.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Update\\Store1UpdateStock\\Store1UpdateStockCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T12:42:15.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Entities\\Stock.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\Entities\\Stock.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Entities\\Stock.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\Entities\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:51:31.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MultiStoreIntegration.Application.csproj",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj",
               "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj",
               "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\MultiStoreIntegration.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-29T06:03:24.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T06:03:24.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Store1CreateStockCommandHandler.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store1CreateStock\\Store1CreateStockCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store1CreateStock\\Store1CreateStockCommandHandler.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store1CreateStock\\Store1CreateStockCommandHandler.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store1CreateStock\\Store1CreateStockCommandHandler.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAawCwAAAANAAAAAAAAAA==",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Integration.API\\Program.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Program.cs",
+              "RelativeToolTip": "Presentation\\Integration.API\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBZwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T16:24:00.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T16:18:02.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Store1StockCreatedEvent.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Events\\Store1StockCreatedEvent.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\Events\\Store1StockCreatedEvent.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Events\\Store1StockCreatedEvent.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\Events\\Store1StockCreatedEvent.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAEwAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T19:38:38.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StockDocument.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\StockDocument.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\StockDocument.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\StockDocument.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\StockDocument.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:36:06.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WarehouseSyncAfterStockCreatedEventHandler.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\WarehouseSyncAfterStockCreatedEventHandler.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\WarehouseSyncAfterStockCreatedEventHandler.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\WarehouseSyncAfterStockCreatedEventHandler.cs",
-              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Infrastructure\\Events\\WarehouseSyncAfterStockCreatedEventHandler.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAACMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T09:17:48.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Store1CreateStockCommandRequest.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store1CreateStock\\Store1CreateStockCommandRequest.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store1CreateStock\\Store1CreateStockCommandRequest.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store1CreateStock\\Store1CreateStockCommandRequest.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store1CreateStock\\Store1CreateStockCommandRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T16:49:49.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Store2DbContext.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store2DbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store2DbContext.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store2DbContext.cs",
-              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store2DbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T09:54:37.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Store1StockController.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Controllers\\Store1StockController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Integration.API\\Controllers\\Store1StockController.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Controllers\\Store1StockController.cs",
-              "RelativeToolTip": "Presentation\\Integration.API\\Controllers\\Store1StockController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T16:45:47.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Stock.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Entities\\Stock.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\Entities\\Stock.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Entities\\Stock.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\Entities\\Stock.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvwQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T16:51:31.133Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 36,
               "Title": "Store1WriteRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store1\\Store1WriteRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store1\\Store1WriteRepository.cs",
@@ -404,19 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Store1CreateStockCommandResponse.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store1CreateStock\\Store1CreateStockCommandResponse.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store1CreateStock\\Store1CreateStockCommandResponse.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store1CreateStock\\Store1CreateStockCommandResponse.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store1CreateStock\\Store1CreateStockCommandResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T15:41:34.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 37,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\appsettings.json",
               "RelativeDocumentMoniker": "Presentation\\Integration.API\\appsettings.json",
@@ -428,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 38,
               "Title": "Integration.API.http",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Integration.API.http",
               "RelativeDocumentMoniker": "Presentation\\Integration.API\\Integration.API.http",
@@ -440,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 40,
               "Title": "IMongoMigration.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Migrations\\Mongo\\Interfaces\\IMongoMigration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Migrations\\Mongo\\Interfaces\\IMongoMigration.cs",
@@ -452,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 41,
               "Title": "MultiStoreIntegrationDbContext.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\MultiStoreIntegrationDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\MultiStoreIntegrationDbContext.cs",
@@ -464,7 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 39,
               "Title": "Store3MongoContext.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store3MongoContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Contexts\\Store3MongoContext.cs",
@@ -476,19 +795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AddInitialIndexes.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Migrations\\Mongo\\Migrations\\AddInitialIndexes.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Migrations\\Mongo\\Migrations\\AddInitialIndexes.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Migrations\\Mongo\\Migrations\\AddInitialIndexes.cs",
-              "RelativeToolTip": "Infrastructure\\MultiStoreIntegration.Persistence\\Migrations\\Mongo\\Migrations\\AddInitialIndexes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T09:36:17.712Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 43,
               "Title": "Store2IRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\Store2\\Store2IRepository.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\Store2\\Store2IRepository.cs",
@@ -500,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 42,
               "Title": "Store2IReadRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\Store2\\Store2IReadRepository.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\Store2\\Store2IReadRepository.cs",
@@ -512,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 44,
               "Title": "Store3IRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\Store3\\Store3IRepository.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\Store3\\Store3IRepository.cs",
@@ -524,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 47,
               "Title": "Store3IStockWriteRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\Store3\\Store3Stock\\Store3IStockWriteRepository.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\Store3\\Store3Stock\\Store3IStockWriteRepository.cs",
@@ -536,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 45,
               "Title": "Store3WriteRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store3\\Store3WriteRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store3\\Store3WriteRepository.cs",
@@ -548,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 46,
               "Title": "Store3IWriteRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\Store3\\Store3IWriteRepository.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\Store3\\Store3IWriteRepository.cs",
@@ -560,7 +867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 53,
               "Title": "Store3StockController.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Controllers\\Store3StockController.cs",
               "RelativeDocumentMoniker": "Presentation\\Integration.API\\Controllers\\Store3StockController.cs",
@@ -572,7 +879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 49,
               "Title": "Store3ReadRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store3\\Store3ReadRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store3\\Store3ReadRepository.cs",
@@ -584,7 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 51,
               "Title": "Store3IReadRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\Store3\\Store3IReadRepository.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\Store3\\Store3IReadRepository.cs",
@@ -596,7 +903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 50,
               "Title": "Store3StockWriteRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store3\\Store3Stock\\Store3StockWriteRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store3\\Store3Stock\\Store3StockWriteRepository.cs",
@@ -608,7 +915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 48,
               "Title": "Store3StockReadRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store3\\Store3Stock\\Store3StockReadRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store3\\Store3Stock\\Store3StockReadRepository.cs",
@@ -620,7 +927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 52,
               "Title": "Store3IStockReadRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\Store3\\Store3Stock\\Store3IStockReadRepository.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\Store3\\Store3Stock\\Store3IStockReadRepository.cs",
@@ -632,43 +939,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 54,
               "Title": "Store3CreateStockCommandHandler.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store3CreateStock\\Store3CreateStockCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store3CreateStock\\Store3CreateStockCommandHandler.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store3CreateStock\\Store3CreateStockCommandHandler.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store3CreateStock\\Store3CreateStockCommandHandler.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store3CreateStock\\Store3CreateStockCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store3CreateStock\\Store3CreateStockCommandHandler.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store3CreateStock\\Store3CreateStockCommandHandler.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store3CreateStock\\Store3CreateStockCommandHandler.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAmwCUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T15:42:44.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 55,
               "Title": "Store3CreateStockCommandRequest.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store3CreateStock\\Store3CreateStockCommandRequest.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store3CreateStock\\Store3CreateStockCommandRequest.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store3CreateStock\\Store3CreateStockCommandRequest.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store3CreateStock\\Store3CreateStockCommandRequest.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store3CreateStock\\Store3CreateStockCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store3CreateStock\\Store3CreateStockCommandRequest.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store3CreateStock\\Store3CreateStockCommandRequest.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store3CreateStock\\Store3CreateStockCommandRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T15:42:58.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "SaleController.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Controllers\\SaleController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Integration.API\\Controllers\\SaleController.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Presentation\\Integration.API\\Controllers\\SaleController.cs",
-              "RelativeToolTip": "Presentation\\Integration.API\\Controllers\\SaleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T20:06:50.044Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 56,
               "Title": "Store1StockWriteRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store1\\Store1Stock\\Store1StockWriteRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store1\\Store1Stock\\Store1StockWriteRepository.cs",
@@ -680,7 +975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 57,
               "Title": "Store1StockReadRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store1\\Store1Stock\\Store1StockReadRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store1\\Store1Stock\\Store1StockReadRepository.cs",
@@ -692,7 +987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 58,
               "Title": "Store1ReadRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store1\\Store1ReadRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\MultiStoreIntegration.Persistence\\Repositories\\Store1\\Store1ReadRepository.cs",
@@ -704,7 +999,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 59,
               "Title": "Store2IStockWriteRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\Store2\\Store2Stock\\Store2IStockWriteRepository.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\Store2\\Store2Stock\\Store2IStockWriteRepository.cs",
@@ -716,7 +1011,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 60,
               "Title": "Store2IStockReadRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\Store2\\Store2Stock\\Store2IStockReadRepository.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\Store2\\Store2Stock\\Store2IStockReadRepository.cs",
@@ -728,7 +1023,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 61,
               "Title": "Store2IWriteRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\Store2\\Store2IWriteRepository.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\Store2\\Store2IWriteRepository.cs",
@@ -740,7 +1035,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 62,
               "Title": "Store1IReturnWriteRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\Store1\\Store1Return\\Store1IReturnWriteRepository.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\Store1\\Store1Return\\Store1IReturnWriteRepository.cs",
@@ -752,7 +1047,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 63,
               "Title": "Store1IReturnReadRepository.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Repositories\\Store1\\Store1Return\\Store1IReturnReadRepository.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Repositories\\Store1\\Store1Return\\Store1IReturnReadRepository.cs",
@@ -764,67 +1059,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 64,
               "Title": "Store3CreateStockCommandResponse.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store3CreateStock\\Store3CreateStockCommandResponse.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store3CreateStock\\Store3CreateStockCommandResponse.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store3CreateStock\\Store3CreateStockCommandResponse.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Store3CreateStock\\Store3CreateStockCommandResponse.cs",
+              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store3CreateStock\\Store3CreateStockCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store3CreateStock\\Store3CreateStockCommandResponse.cs",
+              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store3CreateStock\\Store3CreateStockCommandResponse.cs",
+              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Stock\\Create\\Store3CreateStock\\Store3CreateStockCommandResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T15:42:50.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "CreateSaleCommandHandler.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\CreateSale\\CreateSaleCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\CreateSale\\CreateSaleCommandHandler.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\CreateSale\\CreateSaleCommandHandler.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\CreateSale\\CreateSaleCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAACBjwCEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T19:57:51.724Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "CreateSaleCommandResponse.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\CreateSale\\CreateSaleCommandResponse.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\CreateSale\\CreateSaleCommandResponse.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\CreateSale\\CreateSaleCommandResponse.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\CreateSale\\CreateSaleCommandResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T19:57:50.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "CreateSaleCommandRequest.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\CreateSale\\CreateSaleCommandRequest.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\CreateSale\\CreateSaleCommandRequest.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\CreateSale\\CreateSaleCommandRequest.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Sale\\CreateSale\\CreateSaleCommandRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T19:57:47.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Sale.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Entities\\Sale.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\Entities\\Sale.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\Entities\\Sale.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\Entities\\Sale.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T20:51:55.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 65,
               "Title": "CreateReturnCommandResponse.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Return\\CreateReturn\\CreateReturnCommandResponse.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Return\\CreateReturn\\CreateReturnCommandResponse.cs",
@@ -836,7 +1083,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 66,
               "Title": "CreateReturnCommandRequest.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Return\\CreateReturn\\CreateReturnCommandRequest.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Return\\CreateReturn\\CreateReturnCommandRequest.cs",
@@ -848,7 +1095,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 67,
               "Title": "CreateReturnCommandHandler.cs",
               "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Application\\Features\\Commands\\Return\\CreateReturn\\CreateReturnCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Application\\Features\\Commands\\Return\\CreateReturn\\CreateReturnCommandHandler.cs",
@@ -857,18 +1104,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T20:04:21.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "SaleDocument.cs",
-              "DocumentMoniker": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\SaleDocument.cs",
-              "RelativeDocumentMoniker": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\SaleDocument.cs",
-              "ToolTip": "C:\\MultiStoreIntegration\\MultiStoreIntegration\\Core\\MultiStoreIntegration.Domain\\MongoDocuments\\SaleDocument.cs",
-              "RelativeToolTip": "Core\\MultiStoreIntegration.Domain\\MongoDocuments\\SaleDocument.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T16:40:40.611Z"
             }
           ]
         }

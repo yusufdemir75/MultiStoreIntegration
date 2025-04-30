@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
     <PackageReference Include="MediatR" Version="12.5.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
     <PackageReference Include="MongoDB.Driver" Version="3.3.0" />
@@ -15,15 +16,21 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MultiStoreIntegration.Domain\MultiStoreIntegration.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Features\Queries\Return\" />
     <Folder Include="Features\Queries\Sale\" />
     <Folder Include="Features\Queries\Stock\" />
     <Folder Include="Repositories\Store3\Store3Return\" />
     <Folder Include="Repositories\Store3\Store3Sale\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MultiStoreIntegration.Domain\MultiStoreIntegration.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MultiStoreIntegration.Infrastructure">
+      <HintPath>..\..\Infrastructure\MultiStoreIntegration.Infrastructure\bin\Debug\net8.0\MultiStoreIntegration.Infrastructure.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

@@ -58,10 +58,12 @@ C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\MsBuildPipeLogger.Logger.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Buildalyzer.Workspaces.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\DnsClient.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\FluentValidation.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Humanizer.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\LightInject.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\MediatR.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Build.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Build.Framework.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
@@ -263,4 +265,3 @@ C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.pdb
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.genruntimeconfig.cache
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\ref\Integration.API.dll
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll

@@ -12,7 +12,7 @@ namespace MultiStoreIntegration.Persistence.Contexts
     {
         public Store2DbContext(DbContextOptions<Store2DbContext> options) : base(options) { }
 
-        public DbSet<Stock> Products { get; set; }
+        public DbSet<Stock> Stocks { get; set; }
         public DbSet<Sale> Sales { get; set; }
         public DbSet<Return> Returns { get; set; }
 

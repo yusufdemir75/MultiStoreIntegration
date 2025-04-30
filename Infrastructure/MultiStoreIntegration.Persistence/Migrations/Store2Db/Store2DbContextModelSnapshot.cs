@@ -86,8 +86,8 @@ namespace MultiStoreIntegration.Persistence.Migrations.Store2Db
                     b.Property<int>("Quantity")
                         .HasColumnType("integer");
 
-                    b.Property<int>("TotalPrice")
-                        .HasColumnType("integer");
+                    b.Property<float>("TotalPrice")
+                        .HasColumnType("real");
 
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("timestamp with time zone");
@@ -131,15 +131,15 @@ namespace MultiStoreIntegration.Persistence.Migrations.Store2Db
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("UnitPrice")
-                        .HasColumnType("integer");
+                    b.Property<float>("UnitPrice")
+                        .HasColumnType("real");
 
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products");
+                    b.ToTable("Stocks");
                 });
 
             modelBuilder.Entity("MultiStoreIntegration.Domain.Entities.Return", b =>

@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using MultiStoreIntegration.Application.Features.Commands.Stock.Store3CreateStock;
+using MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store3CreateStock;
 
 namespace Integration.API.Controllers
 {

@@ -22,7 +22,7 @@ namespace MultiStoreIntegration.Domain.MongoDocuments
 
         public int Quantity { get; set; }
         public string ReturnReason { get; set; }
-        public int RefundAmount { get; set; }
+        public float RefundAmount { get; set; }
 
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }

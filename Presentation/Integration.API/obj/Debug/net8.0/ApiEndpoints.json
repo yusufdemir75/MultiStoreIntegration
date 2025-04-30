@@ -1,15 +1,15 @@
 [
   {
     "ContainingType": "Integration.API.Controllers.SaleController",
-    "Method": "CreateSale",
-    "RelativePath": "api/Sale",
+    "Method": "CreateSaleForStore1",
+    "RelativePath": "api/Sale/store1",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "createSaleCommandRequest",
-        "Type": "MultiStoreIntegration.Application.Features.Commands.Sale.CreateSale.CreateSaleCommandRequest",
+        "Name": "request",
+        "Type": "MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store1CreateSale.Store1CreateSaleCommandRequest",
         "IsRequired": true
       }
     ],
@@ -25,7 +25,39 @@
     "Parameters": [
       {
         "Name": "createStockCommandRequest",
-        "Type": "MultiStoreIntegration.Application.Features.Commands.Stock.Store1CreateStock.Store1CreateStockCommandRequest",
+        "Type": "MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store1CreateStock.Store1CreateStockCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Integration.API.Controllers.Store1StockController",
+    "Method": "UpdateStock",
+    "RelativePath": "api/Store1Stock/store1/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateStockCommandRequest",
+        "Type": "MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store1UpdateStock.Store1UpdateStockCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Integration.API.Controllers.Store2StockController",
+    "Method": "CreateStock",
+    "RelativePath": "api/Store2Stock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createStockCommandRequest",
+        "Type": "MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store2CreateStock.Store2CreateStockCommandRequest",
         "IsRequired": true
       }
     ],
@@ -41,7 +73,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "MultiStoreIntegration.Application.Features.Commands.Stock.Store3CreateStock.Store3CreateStockCommandRequest",
+        "Type": "MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store3CreateStock.Store3CreateStockCommandRequest",
         "IsRequired": true
       }
     ],

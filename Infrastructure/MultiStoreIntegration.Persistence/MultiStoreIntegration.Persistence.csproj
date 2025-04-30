@@ -25,4 +25,8 @@
     <ProjectReference Include="..\..\Core\MultiStoreIntegration.Domain\MultiStoreIntegration.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\Store2Db\" />
+  </ItemGroup>
+
 </Project>
