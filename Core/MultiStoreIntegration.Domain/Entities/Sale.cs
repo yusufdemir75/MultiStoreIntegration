@@ -6,17 +6,17 @@ namespace MultiStoreIntegration.Domain.Entities
     {
         // Foreign key
         public Guid ProductId { get; set; }
-        public Stock Product { get; set; }
+        public Stock? Product { get; set; }
 
         public int Quantity { get; set; }
         public float TotalPrice { get; set; }
 
-        public string CustomerName { get; set; }
-        public string CustomerPhone { get; set; }
-        public string PaymentMethod { get; set; }
+        public string? CustomerName { get; set; }
+        public string? CustomerPhone { get; set; }
+        public string? PaymentMethod { get; set; }
 
         // Navigation
-        public ICollection<Return> Returns { get; set; }
+        public ICollection<Return>? Returns { get; set; }
 
     }
 }

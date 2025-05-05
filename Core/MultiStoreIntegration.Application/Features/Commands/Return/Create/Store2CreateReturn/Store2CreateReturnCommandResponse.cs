@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MultiStoreIntegration.Application.Features.Commands.Return.CreateReturn
+namespace MultiStoreIntegration.Application.Features.Commands.Return.Create.Store2CreateReturn
 {
-    public class CreateReturnCommandResponse
+    public class Store2CreateReturnCommandResponse
     {
         public bool Success { get; set; }
 

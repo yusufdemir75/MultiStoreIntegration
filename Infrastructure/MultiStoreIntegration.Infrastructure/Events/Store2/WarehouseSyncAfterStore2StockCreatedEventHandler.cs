@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using MultiStoreIntegration.Domain.Events;
+using MultiStoreIntegration.Domain.Events.Store2;
 using MultiStoreIntegration.Domain.MongoDocuments;
 using MultiStoreIntegration.Persistence.Contexts;
 using MongoDB.Driver;

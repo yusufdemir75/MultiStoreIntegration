@@ -1,14 +1,6 @@
 ﻿using MediatR;
-using MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store1CreateStock;
-using MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store3CreateStock;
-using MultiStoreIntegration.Application.Repositories.Store1.Store1Stock;
 using MultiStoreIntegration.Application.Repositories.Store2.Store2Stock;
-using MultiStoreIntegration.Domain.Events;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MultiStoreIntegration.Domain.Events.Store2;
 
 namespace MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store2CreateStock
 {

@@ -1,7 +1,6 @@
 ﻿using MediatR;
 using MultiStoreIntegration.Domain.MongoDocuments;
 using MultiStoreIntegration.Persistence.Contexts;
-using MongoDB.Driver;
 using MultiStoreIntegration.Domain.Events.Store1;
 
 namespace MultiStoreIntegration.Infrastructure.Events.Store1
@@ -21,7 +20,7 @@ namespace MultiStoreIntegration.Infrastructure.Events.Store1
             var stock = notification.Stock;
             var stockDocument = new StockDocument
             {
-                RelationalId = stock.Id, // Postgre ID
+                RelationalId = stock.Id,
                 ProductCode = stock.ProductCode,
                 Category = stock.Category,
                 ProductName = stock.ProductName,

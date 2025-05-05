@@ -17,14 +17,11 @@ namespace Integration.API.Controllers
             _mediator = mediator;
         }
 
-        // API endpoint to create stock in Store3 MongoDB
         [HttpPost("create")]
         public async Task<IActionResult> CreateStock([FromBody] Store3CreateStockCommandRequest request)
         {
-            // Send the request to MediatR to handle it
             var response = await _mediator.Send(request);
 
-            // Check if the stock creation was successful and return the appropriate response
             if (response.Success)
             {
                 return Ok(response);

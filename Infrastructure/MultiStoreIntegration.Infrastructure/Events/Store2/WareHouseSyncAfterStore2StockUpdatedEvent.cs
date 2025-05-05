@@ -3,6 +3,7 @@ using MultiStoreIntegration.Domain.Events;
 using MultiStoreIntegration.Domain.MongoDocuments;
 using MultiStoreIntegration.Persistence.Contexts;
 using MongoDB.Driver;
+using MultiStoreIntegration.Domain.Events.Store2;
 
 namespace MultiStoreIntegration.Application.Features.Events
 {

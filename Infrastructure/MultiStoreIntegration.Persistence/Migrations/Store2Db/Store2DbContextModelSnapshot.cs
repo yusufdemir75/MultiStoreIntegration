@@ -31,6 +31,12 @@ namespace MultiStoreIntegration.Persistence.Migrations.Store2Db
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<string>("CustomerName")
+                        .HasColumnType("text");
+
+                    b.Property<string>("CustomerPhone")
+                        .HasColumnType("text");
+
                     b.Property<Guid>("ProductId")
                         .HasColumnType("uuid");
 
@@ -41,7 +47,6 @@ namespace MultiStoreIntegration.Persistence.Migrations.Store2Db
                         .HasColumnType("integer");
 
                     b.Property<string>("ReturnReason")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<Guid>("SaleId")
@@ -69,15 +74,12 @@ namespace MultiStoreIntegration.Persistence.Migrations.Store2Db
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("CustomerName")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("CustomerPhone")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("PaymentMethod")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<Guid>("ProductId")

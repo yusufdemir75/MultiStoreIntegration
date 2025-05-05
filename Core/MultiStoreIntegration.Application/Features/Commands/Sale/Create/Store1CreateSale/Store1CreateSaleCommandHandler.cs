@@ -8,7 +8,7 @@ using MultiStoreIntegration.Infrastructure.Validations;
 
 namespace MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store1CreateSale
 {
-    public class Store1CreateSaleCommandHandler : IRequestHandler<Store1CreateSaleCommandRequest, Store1CreateSaleCommandResponse>
+    public class Store1CreateSaleCommandHandler :IRequestHandler<Store1CreateSaleCommandRequest, Store1CreateSaleCommandResponse>
     {
         private readonly Store1ISaleWriteRepository _store1SaleWriteRepository;
         private readonly Store1IStockReadRepository _store1StockReadRepository;
@@ -22,6 +22,7 @@ namespace MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store1
             _store1StockWriteRepository = store1StockWriteRepository;
             _mediator = mediator;
         }
+
 
         public async Task<Store1CreateSaleCommandResponse> Handle(Store1CreateSaleCommandRequest request, CancellationToken cancellationToken)
         {  // Validasyon

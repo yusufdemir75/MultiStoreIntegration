@@ -1,10 +1,5 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MultiStoreIntegration.Domain.MongoDocuments
 {
@@ -14,14 +9,17 @@ namespace MultiStoreIntegration.Domain.MongoDocuments
         [BsonRepresentation(BsonType.ObjectId)]
         public ObjectId Id { get; set; }
 
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string ProductId { get; set; }
+        public Guid RelationalId { get; set; }
 
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string SaleId { get; set; }
+        public Guid ProductId { get; set; }
+
+        public Guid SaleId { get; set; }
+
+        public string? CustomerName { get; set; }
+        public string? CustomerPhone { get; set; }
 
         public int Quantity { get; set; }
-        public string ReturnReason { get; set; }
+        public string? ReturnReason { get; set; }
         public float RefundAmount { get; set; }
 
         public DateTime CreatedDate { get; set; }
