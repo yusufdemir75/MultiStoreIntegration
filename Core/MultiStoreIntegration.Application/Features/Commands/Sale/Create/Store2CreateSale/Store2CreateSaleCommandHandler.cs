@@ -62,7 +62,7 @@ namespace MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store2
             await _store2SaleWriteRepository.SaveAsync();
             await _mediator.Publish(new Store2SaleCreatedEvent(sale), cancellationToken);
 
-
+            
             return new Store2CreateSaleCommandResponse
             {
                 Success = true,

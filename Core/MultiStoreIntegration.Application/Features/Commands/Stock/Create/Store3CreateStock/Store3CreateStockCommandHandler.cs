@@ -1,25 +1,28 @@
 ﻿using MediatR;
-using MultiStoreIntegration.Application.Repositories.Store3;
+using MultiStoreIntegration.Application.Repositories.Store3.Store3Stock;
+using MultiStoreIntegration.Domain.Entities;
+using MultiStoreIntegration.Domain.Events.Store2;
+using MultiStoreIntegration.Domain.Events.Store3;
 using MultiStoreIntegration.Domain.MongoDocuments;
-using System;
-using System.Threading;
-using System.Threading.Tasks;
+using MultiStoreIntegration.Domain.MongoDocuments.Store3MongoDocuments;
+
 
 namespace MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store3CreateStock
 {
     public class Store3CreateStockCommandHandler : IRequestHandler<Store3CreateStockCommandRequest, Store3CreateStockCommandResponse>
     {
-        private readonly Store3IWriteRepository<StockDocument> _writeRepository;
+        private readonly Store3IStockWriteRepository _writeRepository;
+        private readonly IMediator _mediator;
 
-        public Store3CreateStockCommandHandler(Store3IWriteRepository<StockDocument> writeRepository)
+        public Store3CreateStockCommandHandler(Store3IStockWriteRepository writeRepository, IMediator mediator)
         {
             _writeRepository = writeRepository;
+            _mediator = mediator;
         }
 
         public async Task<Store3CreateStockCommandResponse> Handle(Store3CreateStockCommandRequest request, CancellationToken cancellationToken)
         {
-            // Yeni stok oluşturma
-            var newStock = new StockDocument
+            var newStock = new Store3StockDocument
             {
                 ProductCode = request.ProductCode,
                 Category = request.Category,
@@ -34,6 +37,9 @@ namespace MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store
 
             // Stok verisini MongoDB'ye ekleyelim
             var success = await _writeRepository.AddAsync(newStock);
+
+            await _mediator.Publish(new Store3StockCreatedEvent(newStock));
+
 
             // Sonuç döndürelim
             return new Store3CreateStockCommandResponse

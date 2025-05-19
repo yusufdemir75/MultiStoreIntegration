@@ -10,8 +10,9 @@ namespace MultiStoreIntegration.Domain.MongoDocuments
         [BsonRepresentation(BsonType.ObjectId)]
         public ObjectId Id { get; set; }
 
-        public Guid ProductId { get; set; }
         public Guid RelationalId { get; set; }
+
+        public Guid ProductId { get; set; }
 
         public int Quantity { get; set; }
         public float TotalPrice { get; set; }

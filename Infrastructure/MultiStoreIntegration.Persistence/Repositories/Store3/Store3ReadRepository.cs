@@ -1,4 +1,5 @@
-﻿using MongoDB.Driver;
+﻿using MongoDB.Bson;
+using MongoDB.Driver;
 using MultiStoreIntegration.Application.Repositories.Store3;
 using System;
 using System.Collections.Generic;
@@ -10,14 +11,14 @@ namespace MultiStoreIntegration.Persistence.Repositories.Store3
 {
     public class Store3ReadRepository<T> : Store3IReadRepository<T> where T : class
     {
-        private readonly IMongoDatabase _database;
+        private readonly IMongoCollection<T> _collection;
 
-        public Store3ReadRepository(IMongoDatabase database)
+        public Store3ReadRepository(IMongoDatabase database, string collectionName)
         {
-            _database = database;
+            _collection = database.GetCollection<T>(collectionName);
         }
 
-        public IMongoCollection<T> Collection => _database.GetCollection<T>(typeof(T).Name.ToLowerInvariant());
+        public IMongoCollection<T> Collection => _collection;
 
         // Get all documents
         public async Task<IEnumerable<T>> GetAllAsync()
@@ -32,10 +33,12 @@ namespace MultiStoreIntegration.Persistence.Repositories.Store3
         }
 
         // Get document by ID
-        public async Task<T> GetByIdAsync(string id)
+        public async Task<T> GetByIdAsync(ObjectId id)
         {
-            return await Collection.Find(x => x.GetType().GetProperty("Id").GetValue(x).ToString() == id).FirstOrDefaultAsync();
+            var filter = Builders<T>.Filter.Eq("_id", id);
+            return await Collection.Find(filter).FirstOrDefaultAsync();
         }
+
 
         // Get documents where filter is applied (GetWhere)
         public async Task<IEnumerable<T>> GetWhereAsync(Expression<Func<T, bool>> method)
@@ -45,18 +48,14 @@ namespace MultiStoreIntegration.Persistence.Repositories.Store3
             return await Collection.Find(filter).ToListAsync();
         }
 
-        // Get single document by filter
         public async Task<T> GetSingleAsync(Expression<Func<T, bool>> method)
         {
-            // Convert Expression<Func<T, bool>> to MongoDB FilterDefinition<T>
             var filter = ConvertExpressionToFilter(method);
             return await Collection.Find(filter).FirstOrDefaultAsync();
         }
 
-        // Helper method to convert expression to MongoDB FilterDefinition<T>
         private FilterDefinition<T> ConvertExpressionToFilter(Expression<Func<T, bool>> expression)
         {
-            // MongoDB does not directly support LINQ expressions, so we use Builders<T>.Filter to convert.
             return Builders<T>.Filter.Where(expression);
         }
 

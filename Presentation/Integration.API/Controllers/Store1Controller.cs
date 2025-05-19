@@ -5,6 +5,7 @@ using MultiStoreIntegration.Application.Features.Commands.Return.Create.CreateRe
 using MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store1CreateSale;
 using MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store1CreateStock;
 using MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store1UpdateStock;
+using MultiStoreIntegration.Application.Features.Queries.Stock.GetAll.Store1GetAll;
 
 namespace Integration.API.Controllers
 {
@@ -63,7 +64,7 @@ namespace Integration.API.Controllers
 
         [HttpPost("ReturnCreate")]
 
-        public async Task<IActionResult> CreateReturnStore1([FromBody] Store1CreateReturnCommandRequest request)
+        public async Task<IActionResult> CreateReturnStore1([FromBody] Store1GetAllCommandRequest request)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -77,6 +78,13 @@ namespace Integration.API.Controllers
 
 
 
+        [HttpGet("StockGetAll")]
+        public async Task<IActionResult> GetAllStock()
+        {
+            var query = new Store1GetAllStockQueryRequest();
+            var response = await _mediator.Send(query);
+            return response.Success ? Ok(response) : NotFound(response);
+        }
 
     }
 }

@@ -20,6 +20,7 @@ namespace MultiStoreIntegration.Persistence.Migrations.Mongo
             _database = context.Database;
             _migrations = new List<IMongoMigration>
             {
+                new CreateInitialCollections()
                 // Buraya diğer migration sınıfları da eklenebilir
             };
 

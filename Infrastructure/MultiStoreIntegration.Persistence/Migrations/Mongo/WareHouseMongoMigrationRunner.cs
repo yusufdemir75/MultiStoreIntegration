@@ -26,7 +26,7 @@ namespace MultiStoreIntegration.Persistence.Migrations.Mongo
             };
         }
 
-        public async Task RunMigrationsAsync()
+        public async Task RunWareHouseMigrationsAsync()
         {
             var appliedMigrationsCollection = _database.GetCollection<BsonDocument>("__applied_migrations");
 

@@ -1,4 +1,5 @@
 ﻿using MultiStoreIntegration.Domain.MongoDocuments;
+using MultiStoreIntegration.Domain.MongoDocuments.Store3MongoDocuments;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MultiStoreIntegration.Application.Repositories.Store3.Store3Stock
 {
-    public interface Store3IStockWriteRepository : Store3IWriteRepository<StockDocument>
+    public interface Store3IStockWriteRepository : Store3IWriteRepository<Store3StockDocument>
     {
     }
 }

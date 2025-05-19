@@ -1,6 +1,8 @@
-﻿using MongoDB.Driver;
+﻿using MongoDB.Bson;
+using MongoDB.Driver;
 using MultiStoreIntegration.Application.Repositories.Store3;
 using MultiStoreIntegration.Domain.MongoDocuments;
+using MultiStoreIntegration.Domain.MongoDocuments.Store3MongoDocuments;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -22,21 +24,21 @@ namespace MultiStoreIntegration.Persistence.Repositories.Store3
         {
             get
             {
-                // "StockDocument" yerine "products" koleksiyonunu kullanmak istiyoruz.
-                if (typeof(T) == typeof(StockDocument))
+                if (typeof(T) == typeof(Store3StockDocument))
                 {
-                    return _database.GetCollection<T>("Products"); // Burada 'products' koleksiyonuna yönlendiriyoruz.
+                    return _database.GetCollection<T>("Stocks"); 
                 }
 
-                else if (typeof(T) == typeof(SaleDocument))
+                else if (typeof(T) == typeof(Store3SaleDocument))
                 {
                     return _database.GetCollection<T>("Sales");
                 }
-                else if (typeof(T) == typeof(ReturnDocument))
+                else if (typeof(T) == typeof(Store3ReturnDocument))
                 {
                     return _database.GetCollection<T>("Returns");
                 }
-                // Diğer türler için varsayılan koleksiyon adını döndürüyoruz
+                
+
                 return _database.GetCollection<T>(typeof(T).Name.ToLowerInvariant());
             }
         }
@@ -86,7 +88,24 @@ namespace MultiStoreIntegration.Persistence.Repositories.Store3
         {
             try
             {
-                var filter = Builders<T>.Filter.Eq("Id", model.GetType().GetProperty("Id").GetValue(model).ToString());
+                var idProperty = model.GetType().GetProperty("Id");
+                if (idProperty == null)
+                {
+                    Console.WriteLine("Model does not contain an Id property.");
+                    return false;
+                }
+
+                var idValue = idProperty.GetValue(model);
+                if (idValue == null)
+                {
+                    Console.WriteLine("Id property is null.");
+                    return false;
+                }
+
+                var objectId = idValue is ObjectId ? (ObjectId)idValue : ObjectId.Parse(idValue.ToString());
+
+                var filter = Builders<T>.Filter.Eq("_id", objectId);  
+
                 var result = await Collection.ReplaceOneAsync(filter, model);
 
                 return result.ModifiedCount > 0;

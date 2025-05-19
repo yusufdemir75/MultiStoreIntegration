@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "MultiStoreIntegration.Application.Features.Commands.Return.Create.CreateReturn.Store1CreateReturnCommandRequest",
+        "Type": "MultiStoreIntegration.Application.Features.Commands.Return.Create.CreateReturn.Store1GetAllCommandRequest",
         "IsRequired": true
       }
     ],
@@ -45,6 +45,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Integration.API.Controllers.Store1Controller",
+    "Method": "GetAllStock",
+    "RelativePath": "api/Store1/StockGetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -113,6 +123,16 @@
   },
   {
     "ContainingType": "Integration.API.Controllers.Store2Controller",
+    "Method": "GetAllStock",
+    "RelativePath": "api/Store2/StockGetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Integration.API.Controllers.Store2Controller",
     "Method": "UpdateStock",
     "RelativePath": "api/Store2/StockUpdate",
     "HttpMethod": "PUT",
@@ -122,6 +142,54 @@
       {
         "Name": "updateStockCommandRequest",
         "Type": "MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store2UpdateStock.Store2UpdateStockCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Integration.API.Controllers.Store3Controller",
+    "Method": "CreateReturn",
+    "RelativePath": "api/Store3/ReturnCreate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MultiStoreIntegration.Application.Features.Commands.Return.Create.Store3CreateReturn.Store3CreateReturnCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Integration.API.Controllers.Store3Controller",
+    "Method": "CreateSale",
+    "RelativePath": "api/Store3/SaleCreate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store3CreateSale.Store3CreateSaleCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Integration.API.Controllers.Store3Controller",
+    "Method": "CreateStock",
+    "RelativePath": "api/Store3/StockCreate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store3CreateStock.Store3CreateStockCommandRequest",
         "IsRequired": true
       }
     ],

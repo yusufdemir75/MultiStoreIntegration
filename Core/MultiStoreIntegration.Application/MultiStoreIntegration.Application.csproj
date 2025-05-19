@@ -18,9 +18,6 @@
   <ItemGroup>
     <Folder Include="Features\Queries\Return\" />
     <Folder Include="Features\Queries\Sale\" />
-    <Folder Include="Features\Queries\Stock\" />
-    <Folder Include="Repositories\Store3\Store3Return\" />
-    <Folder Include="Repositories\Store3\Store3Sale\" />
   </ItemGroup>
 
   <ItemGroup>

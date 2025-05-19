@@ -13,7 +13,7 @@ namespace MultiStoreIntegration.Persistence.Contexts
         public MultiStoreIntegrationDbContext(DbContextOptions options) : base(options)
         {}
 
-        public DbSet<Stock> Products { get; set; }
+        public DbSet<Stock> Stocks { get; set; }
         public DbSet<Sale> Sales { get; set; }
         public DbSet<Return> Returns { get; set; }
     }

@@ -24,6 +24,7 @@ namespace MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store
             // Yeni stok nesnesi oluşturuluyor
             var stock = new Domain.Entities.Stock
             {
+                
                 ProductCode = request.ProductCode,
                 Category = request.Category,
                 ProductName = request.ProductName,

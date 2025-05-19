@@ -248,7 +248,6 @@ C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.AssemblyInfoInputs.cache
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.AssemblyInfo.cs
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.csproj.CoreCompileInputs.cache
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.MvcApplicationPartsAssemblyInfo.cs
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.MvcApplicationPartsAssemblyInfo.cache
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.sourcelink.json
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\staticwebassets.build.json
@@ -265,3 +264,4 @@ C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.pdb
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.genruntimeconfig.cache
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\ref\Integration.API.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.MvcApplicationPartsAssemblyInfo.cs

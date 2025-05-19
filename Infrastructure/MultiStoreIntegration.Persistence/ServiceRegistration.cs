@@ -21,6 +21,11 @@ using MultiStoreIntegration.Domain.MongoDocuments;
 using MultiStoreIntegration.Persistence.Repositories.Store3;
 using MultiStoreIntegration.Application.Repositories.Store3.Store3Stock;
 using MultiStoreIntegration.Persistence.Repositories.Store3.Store3Stock;
+using MultiStoreIntegration.Application.Repositories.Store3.Store3Sale;
+using MultiStoreIntegration.Persistence.Repositories.Store3.Store3Sale;
+using MultiStoreIntegration.Domain.MongoDocuments.Store3MongoDocuments;
+using MultiStoreIntegration.Application.Repositories.Store3.Store3Return;
+using MultiStoreIntegration.Persistence.Repositories.Store3.Store3Return;
 
 namespace MultiStoreIntegration.Persistence
 {
@@ -35,18 +40,20 @@ namespace MultiStoreIntegration.Persistence
             services.AddDbContext<Store2DbContext>(options =>
                 options.UseNpgsql(configuration.GetConnectionString("Store2Db")));
 
-            // MongoDB bağlantılarını ekliyoruz
-            services.AddSingleton<IMongoClient>(sp =>
+            services.AddKeyedSingleton<IMongoClient>("Store3MongoClient", (sp, _) =>
             {
+                var configuration = sp.GetRequiredService<IConfiguration>();
                 var connectionString = configuration["MongoDb:ConnectionString"];
                 return new MongoClient(connectionString);
             });
 
-            services.AddSingleton<IMongoClient>(sp =>
+            services.AddKeyedSingleton<IMongoClient>("WarehouseMongoClient", (sp, _) =>
             {
+                var configuration = sp.GetRequiredService<IConfiguration>();
                 var warehouseConnectionString = configuration["WareHouse:ConnectionString"];
                 return new MongoClient(warehouseConnectionString);
             });
+
 
             // MongoMigrationRunner ve WareHouseMongoMigrationRunner'ı scoped olarak kaydediyoruz
             services.AddScoped<MongoMigrationRunner>();
@@ -55,20 +62,25 @@ namespace MultiStoreIntegration.Persistence
             // Store3 ve Warehouse için MongoDB context servislerini scoped olarak kaydediyoruz
             services.AddScoped<Store3MongoContext>(sp =>
             {
-                var mongoClient = sp.GetRequiredService<IMongoClient>();
+                var mongoClient = sp.GetRequiredKeyedService<IMongoClient>("Store3MongoClient");
                 return new Store3MongoContext(mongoClient, configuration);
             });
 
             services.AddScoped<WarehouseMongoDbContext>(sp =>
             {
-                var mongoClient = sp.GetRequiredService<IMongoClient>();
+                var mongoClient = sp.GetRequiredKeyedService<IMongoClient>("WarehouseMongoClient");
                 return new WarehouseMongoDbContext(mongoClient, configuration);
             });
 
             // Store3 Repository Servislerini ekliyoruz
+
             services.AddScoped<Store3IStockReadRepository, Store3StockReadRepository>();
             services.AddScoped<Store3IStockWriteRepository, Store3StockWriteRepository>();
-            services.AddScoped<Store3IWriteRepository<StockDocument>, Store3WriteRepository<StockDocument>>();
+            services.AddScoped<Store3ISaleWriteRepository, Store3SaleWriteRepository>();
+            services.AddScoped<Store3ISaleReadRepository, Store3SaleReadRepository>();
+            services.AddScoped<Store3IReturnReadRepository, Store3ReturnReadRepository>();
+            services.AddScoped<Store3IReturnWriteRepository, Store3ReturnWriteRepository>();
+            services.AddScoped<Store3IWriteRepository<Store3StockDocument>, Store3WriteRepository<Store3StockDocument>>();
 
             // Store1 Repository Servislerini ekliyoruz
             services.AddScoped<Store1IStockReadRepository, Store1StockReadRepository>();

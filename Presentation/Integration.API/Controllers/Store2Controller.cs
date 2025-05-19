@@ -5,6 +5,7 @@ using MultiStoreIntegration.Application.Features.Commands.Return.Create.Store2Cr
 using MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store2CreateSale;
 using MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store2CreateStock;
 using MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store2UpdateStock;
+using MultiStoreIntegration.Application.Features.Queries.Stock.GetAllStock.Store2GetAllStock;
 
 namespace Integration.API.Controllers
 {
@@ -70,7 +71,13 @@ namespace Integration.API.Controllers
 
 
 
-
+        [HttpGet("StockGetAll")]
+        public async Task<IActionResult> GetAllStock()
+        {
+            var query = new Store2GetAllStockQueryRequest();
+            var response = await _mediator.Send(query);
+            return response.Success ? Ok(response) : NotFound(response);
+        }
 
 
     }

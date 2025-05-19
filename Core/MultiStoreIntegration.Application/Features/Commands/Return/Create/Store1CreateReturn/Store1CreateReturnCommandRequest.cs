@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MultiStoreIntegration.Application.Features.Commands.Return.Create.CreateReturn
 {
-    public class Store1CreateReturnCommandRequest : IRequest<Store1CreateReturnCommandResponse>
+    public class Store1GetAllCommandRequest : IRequest<Store1CreateReturnCommandResponse>
     {
         public Guid SaleId { get; set; }
         public int Quantity { get; set; }

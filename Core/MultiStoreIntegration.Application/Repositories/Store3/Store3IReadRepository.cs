@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using MongoDB.Bson;
+using System.Linq.Expressions;
 
 namespace MultiStoreIntegration.Application.Repositories.Store3
 {
@@ -7,7 +8,7 @@ namespace MultiStoreIntegration.Application.Repositories.Store3
         IQueryable<T> GetAll();
         Task<IEnumerable<T>> GetWhereAsync(Expression<Func<T, bool>> method);
         Task<T> GetSingleAsync(Expression<Func<T, bool>> method);
-        Task<T> GetByIdAsync(string id);
+        Task<T> GetByIdAsync(ObjectId id);
         Task<IEnumerable<T>> GetAllAsync();
     }
 }
