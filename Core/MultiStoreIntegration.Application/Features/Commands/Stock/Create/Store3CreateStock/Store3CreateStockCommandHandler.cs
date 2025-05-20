@@ -35,13 +35,11 @@ namespace MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store
                 UpdatedDate = DateTime.UtcNow
             };
 
-            // Stok verisini MongoDB'ye ekleyelim
             var success = await _writeRepository.AddAsync(newStock);
 
             await _mediator.Publish(new Store3StockCreatedEvent(newStock));
 
 
-            // Sonuç döndürelim
             return new Store3CreateStockCommandResponse
             {
                 Success = success,

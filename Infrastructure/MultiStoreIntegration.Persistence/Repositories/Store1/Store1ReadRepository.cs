@@ -39,5 +39,15 @@ namespace MultiStoreIntegration.Persistence.Repositories.Store1
 
         public async Task<T> GetSingleAsync(Expression<Func<T, bool>> method, bool tracking = true)
             => await GetWhere(method, tracking).FirstOrDefaultAsync();
+
+        public async Task<List<(string Category, int TotalQuantity)>> GetTotalStockPerCategoryAsync()
+        {
+            return await _context.stock
+                .Where(s => s.Category != null)
+                .GroupBy(s => s.Category)
+                .Select(g => new ValueTuple<string, int>(g.Key!, g.Sum(s => s.Quantity)))
+                .ToListAsync();
+        }
+
     }
 }

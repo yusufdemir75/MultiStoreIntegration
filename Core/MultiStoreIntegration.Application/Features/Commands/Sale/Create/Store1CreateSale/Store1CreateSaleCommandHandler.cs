@@ -25,7 +25,7 @@ namespace MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store1
 
 
         public async Task<Store1CreateSaleCommandResponse> Handle(Store1CreateSaleCommandRequest request, CancellationToken cancellationToken)
-        {  // Validasyon
+        {  
             var validator = new Store1CreateSaleValidation();
             var validationResult = validator.Validate(request);
             if (!validationResult.IsValid)

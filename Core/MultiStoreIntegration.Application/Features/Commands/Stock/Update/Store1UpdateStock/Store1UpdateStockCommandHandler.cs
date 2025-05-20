@@ -2,6 +2,7 @@
 using MultiStoreIntegration.Application.Repositories;
 using MultiStoreIntegration.Application.Repositories.Store1.Store1Stock;
 using MultiStoreIntegration.Domain.Entities;
+using MultiStoreIntegration.Domain.Events.Store1;
 
 namespace MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store1UpdateStock
 {
@@ -9,11 +10,13 @@ namespace MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store
     {
         private readonly Store1IStockWriteRepository _stockWriteRepository;
         private readonly Store1IStockReadRepository _stockReadRepository;
+        private readonly IMediator _mediator;
 
-        public Store1UpdateStockCommandHandler(Store1IStockWriteRepository stockWriteRepository, Store1IStockReadRepository stockReadRepository)
+        public Store1UpdateStockCommandHandler(Store1IStockWriteRepository stockWriteRepository, Store1IStockReadRepository stockReadRepository, IMediator mediator)
         {
             _stockWriteRepository = stockWriteRepository;
             _stockReadRepository = stockReadRepository;
+            _mediator = mediator;
         }
 
         public async Task<Store1UpdateStockCommandResponse> Handle(Store1UpdateStockCommandRequest request, CancellationToken cancellationToken)
@@ -53,7 +56,7 @@ namespace MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store
             stock.UpdatedDate = DateTime.UtcNow;
 
             await _stockWriteRepository.SaveAsync();
-
+            await _mediator.Publish(new Store1StockUpdatedEvent(stock));
             return new Store1UpdateStockCommandResponse
             {
                 Success = true,

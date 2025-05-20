@@ -1,4 +1,4 @@
-﻿using MultiStoreIntegration.Application.DTOs;
+﻿using MultiStoreIntegration.Application.DTOs.StockDtos.Store2StockDto;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using MultiStoreIntegration.Application.DTOs;
+using MultiStoreIntegration.Application.DTOs.StockDtos.Store2StockDto;
 using MultiStoreIntegration.Application.Features.Queries.Stock.GetAllStock.Store1GetAllStock;
 using MultiStoreIntegration.Application.Repositories.Store1.Store1Stock;
 using MultiStoreIntegration.Application.Repositories.Store2.Store2Stock;

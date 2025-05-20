@@ -19,5 +19,8 @@ namespace MultiStoreIntegration.Application.Repositories.Store2
         Task<T> GetByIdAsync(Guid id, bool tracking = true);
 
         Task<IEnumerable<T>> GetAllAsync(bool tracking = true);
+
+        Task<List<(string Category, int TotalQuantity)>> GetTotalStockPerCategoryAsync();
+
     }
 }

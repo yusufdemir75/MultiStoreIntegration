@@ -11,7 +11,7 @@ namespace MultiStoreIntegration.Persistence.Contexts
         public WarehouseMongoDbContext([FromKeyedServices("WarehouseMongoClient")] IMongoClient mongoClient, IConfiguration configuration)
         {
             var databaseName = configuration["WareHouse:DatabaseName"];
-            _database = mongoClient.GetDatabase(databaseName); // MongoDB database adı
+            _database = mongoClient.GetDatabase(databaseName); 
         }
 
         public IMongoDatabase Database => _database;

@@ -5,7 +5,10 @@ using MultiStoreIntegration.Application.Features.Commands.Return.Create.Store2Cr
 using MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store2CreateSale;
 using MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store2CreateStock;
 using MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store2UpdateStock;
+using MultiStoreIntegration.Application.Features.Queries.Sale.GetAllSale.Store1GetAllSale;
+using MultiStoreIntegration.Application.Features.Queries.Sale.GetAllSale.Store2GetAllSale;
 using MultiStoreIntegration.Application.Features.Queries.Stock.GetAllStock.Store2GetAllStock;
+using MultiStoreIntegration.Application.Features.Queries.Stock.GetCategoryStock.Store2GetCategoryStock;
 
 namespace Integration.API.Controllers
 {
@@ -75,6 +78,23 @@ namespace Integration.API.Controllers
         public async Task<IActionResult> GetAllStock()
         {
             var query = new Store2GetAllStockQueryRequest();
+            var response = await _mediator.Send(query);
+            return response.Success ? Ok(response) : NotFound(response);
+        }
+
+
+        [HttpGet("CategoryStock")]
+        public async Task<IActionResult> GetStockPerCategory()
+        {
+            var query = new Store2GetCategoryStockQueryRequest();
+            var response = await _mediator.Send(query);
+            return response.Success ? Ok(response) : NotFound(response);
+        }
+
+        [HttpGet("SaleGetAll")]
+        public async Task<IActionResult> GetAllSale()
+        {
+            var query = new Store2GetAllSaleQueryRequest();
             var response = await _mediator.Send(query);
             return response.Success ? Ok(response) : NotFound(response);
         }

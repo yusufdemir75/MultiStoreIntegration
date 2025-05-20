@@ -10,5 +10,7 @@ namespace MultiStoreIntegration.Application.Repositories.Store3.Store3Stock
 {
     public interface Store3IStockReadRepository: Store3IReadRepository<Store3StockDocument>
     {
+        Task<List<(string Category, int TotalQuantity)>> GetTotalStockPerCategoryAsync();
+
     }
 }

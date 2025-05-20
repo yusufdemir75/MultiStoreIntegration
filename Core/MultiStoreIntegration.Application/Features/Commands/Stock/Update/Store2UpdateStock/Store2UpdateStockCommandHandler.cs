@@ -1,6 +1,8 @@
 ﻿using MediatR;
 using MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store2UpdateStock;
 using MultiStoreIntegration.Application.Repositories.Store2.Store2Stock;
+using MultiStoreIntegration.Domain.Events.Store1;
+using MultiStoreIntegration.Domain.Events.Store2;
 
 namespace MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store1UpdateStock
 {
@@ -10,10 +12,13 @@ namespace MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store
 
         private readonly Store2IStockReadRepository _stockReadRepository;
 
-        public Store2UpdateStockCommandHandler(Store2IStockWriteRepository stockWriteRepository , Store2IStockReadRepository stockReadRepository )
+        private readonly IMediator _mediator;
+
+        public Store2UpdateStockCommandHandler(Store2IStockWriteRepository stockWriteRepository , Store2IStockReadRepository stockReadRepository, IMediator mediator )
         {
             _stockReadRepository = stockReadRepository;
             _stockWriteRepository = stockWriteRepository;
+            _mediator = mediator;
 
         }
 
@@ -54,6 +59,7 @@ namespace MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store
             stock.UpdatedDate = DateTime.UtcNow;
 
             await _stockWriteRepository.SaveAsync();
+            await _mediator.Publish(new Store2StockUpdatedEvent(stock));
 
             return new Store2UpdateStockCommandResponse
             {

@@ -10,11 +10,11 @@ namespace MultiStoreIntegration.Persistence
 
         public Store3MongoContext([FromKeyedServices("Store3MongoClient")] IMongoClient mongoClient, IConfiguration configuration)
         {
-            var databaseName = configuration["MongoDb:DatabaseName"]; // MongoDB database ismini yapılandırmadan alıyoruz
+            var databaseName = configuration["MongoDb:DatabaseName"]; 
             _database = mongoClient.GetDatabase(databaseName);
         }
 
-        // _database'i doğrudan döndürüyoruz
+        
         public IMongoDatabase Database => _database;
     }
 }

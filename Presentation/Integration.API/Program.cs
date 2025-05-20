@@ -37,13 +37,12 @@ builder.Services.AddCors(options =>
 
 
 
-// Persistence servislerini yükle
 builder.Services.AddPersistenceServices(builder.Configuration);
 
 var app = builder.Build();
 BsonSerializer.RegisterSerializer(new GuidSerializer(GuidRepresentation.Standard));
 app.UseCors("AllowReactApp");
-// Migration'larý çalýþtýr
+
 using (var scope = app.Services.CreateScope())
 {
 

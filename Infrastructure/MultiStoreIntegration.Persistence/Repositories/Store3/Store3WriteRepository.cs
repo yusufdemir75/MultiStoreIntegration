@@ -14,7 +14,6 @@ namespace MultiStoreIntegration.Persistence.Repositories.Store3
     {
         private readonly IMongoDatabase _database;
 
-        // Store3MongoContext üzerinden IMongoDatabase alıyoruz
         public Store3WriteRepository(Store3MongoContext context)
         {
             _database = context.Database;

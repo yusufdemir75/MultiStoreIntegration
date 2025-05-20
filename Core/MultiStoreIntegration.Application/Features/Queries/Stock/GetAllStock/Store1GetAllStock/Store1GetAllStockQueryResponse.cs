@@ -1,5 +1,4 @@
-﻿
-using MultiStoreIntegration.Application.DTOs;
+﻿using MultiStoreIntegration.Application.DTOs.StockDtos.Store1StockDto;
 
 namespace MultiStoreIntegration.Application.Features.Queries.Stock.GetAllStock.Store1GetAllStock
 {

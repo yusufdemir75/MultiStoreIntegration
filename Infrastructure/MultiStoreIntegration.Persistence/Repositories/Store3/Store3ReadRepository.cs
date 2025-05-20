@@ -1,6 +1,7 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Driver;
 using MultiStoreIntegration.Application.Repositories.Store3;
+using MultiStoreIntegration.Domain.MongoDocuments;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -66,5 +67,7 @@ namespace MultiStoreIntegration.Persistence.Repositories.Store3
             var filter = Builders<T>.Filter.In("Id", objectIds);
             return await Collection.Find(filter).ToListAsync();
         }
+
+
     }
 }

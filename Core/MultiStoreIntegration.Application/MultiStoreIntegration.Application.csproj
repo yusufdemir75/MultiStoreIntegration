@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="DTOs\SaleDtos\Store3SaleDto\" />
     <Folder Include="Features\Queries\Return\" />
-    <Folder Include="Features\Queries\Sale\" />
   </ItemGroup>
 
   <ItemGroup>

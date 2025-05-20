@@ -27,7 +27,7 @@ namespace MultiStoreIntegration.Infrastructure.Events.Store1
 
 
 
-            var Document = new Domain.MongoDocuments.ReturnDocument
+            var Document = new ReturnDocument
             {
                 RelationalId = Return.Id,
                 ProductId = Return.ProductId,
