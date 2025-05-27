@@ -24,7 +24,7 @@ namespace MultiStoreIntegration.Application.Features.Queries.Sale.GetAllSale.Sto
                 return new Store2GetAllSaleQueryResponse
                 {
                     Success = false,
-                    Message = "Stok verisi bulunamadı.",
+                    Message = "Satış verisi bulunamadı.",
                     Store2Sales = new List<Store2SaleDto>()
                 };
             }
@@ -42,7 +42,7 @@ namespace MultiStoreIntegration.Application.Features.Queries.Sale.GetAllSale.Sto
             return new Store2GetAllSaleQueryResponse
             {
                 Success = true,
-                Message = "Stok verileri başarıyla getirildi.",
+                Message = "Satış verileri başarıyla getirildi.",
                 Store2Sales = saleDtos
             };
         }

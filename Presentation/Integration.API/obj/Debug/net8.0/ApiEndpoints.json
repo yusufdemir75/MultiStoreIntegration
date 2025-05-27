@@ -27,6 +27,16 @@
   },
   {
     "ContainingType": "Integration.API.Controllers.Store1Controller",
+    "Method": "GetAllReturn",
+    "RelativePath": "api/Store1/ReturnGetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Integration.API.Controllers.Store1Controller",
     "Method": "CreateSaleForStore1",
     "RelativePath": "api/Store1/SaleCreate",
     "HttpMethod": "POST",
@@ -117,6 +127,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Integration.API.Controllers.Store2Controller",
+    "Method": "GetAllReturn",
+    "RelativePath": "api/Store2/ReturnGetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -215,6 +235,16 @@
   },
   {
     "ContainingType": "Integration.API.Controllers.Store3Controller",
+    "Method": "GetAllReturn",
+    "RelativePath": "api/Store3/ReturnGetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Integration.API.Controllers.Store3Controller",
     "Method": "CreateSale",
     "RelativePath": "api/Store3/SaleCreate",
     "HttpMethod": "POST",
@@ -227,6 +257,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Integration.API.Controllers.Store3Controller",
+    "Method": "GetAllSale",
+    "RelativePath": "api/Store3/SaleGetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

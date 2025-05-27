@@ -16,11 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\SaleDtos\Store3SaleDto\" />
-    <Folder Include="Features\Queries\Return\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\MultiStoreIntegration.Domain\MultiStoreIntegration.Domain.csproj" />
   </ItemGroup>
 

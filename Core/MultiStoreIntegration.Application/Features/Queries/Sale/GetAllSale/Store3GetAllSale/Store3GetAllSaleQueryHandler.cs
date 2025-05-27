@@ -1,17 +1,38 @@
 ﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MultiStoreIntegration.Application.DTOs.SaleDtos.Store3SaleDto;
+using MultiStoreIntegration.Application.Repositories.Store3.Store3Sale;
 
 namespace MultiStoreIntegration.Application.Features.Queries.Sale.GetAllSale.Store3GetAllSale
 {
     public class Store3GetAllSaleQueryHandler : IRequestHandler<Store3GetAllSaleQueryRequest, Store3GetAllSaleQueryResponse>
     {
-        public Task<Store3GetAllSaleQueryResponse> Handle(Store3GetAllSaleQueryRequest request, CancellationToken cancellationToken)
+        private readonly Store3ISaleReadRepository _saleReadRepository;
+
+        public Store3GetAllSaleQueryHandler(Store3ISaleReadRepository saleReadRepository)
         {
-            throw new NotImplementedException();
+            _saleReadRepository = saleReadRepository;
+        }
+
+        public async Task<Store3GetAllSaleQueryResponse> Handle(Store3GetAllSaleQueryRequest request, CancellationToken cancellationToken)
+        {
+            var sales = await _saleReadRepository.GetAllAsync();
+
+            var saleDtos = sales.Select(sale => new Store3SaleDto
+            {
+                Id=sale.Id.ToString(),
+                CustomerName=sale.CustomerName,
+                CustomerPhone=sale.CustomerPhone,
+                PaymentMethod=sale.PaymentMethod,
+                Quantity=sale.Quantity,
+                TotalPrice = sale.TotalPrice,
+            }).ToList();
+
+            return new Store3GetAllSaleQueryResponse
+            {
+                Success = true,
+                Message = "Tüm satış verileri başarıyla getirildi.",
+                Store3Sales = saleDtos
+            };
         }
     }
 }

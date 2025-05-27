@@ -11,5 +11,6 @@ namespace MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store3
         public string Message { get; set; }
 
         public bool Success { get; set; }
+
     }
 }
