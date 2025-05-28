@@ -1,0 +1,343 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f5f5f5;
+  margin-left: 240px; /* Sidebar genişliği kadar margin */
+  width: calc(100% - 240px); /* Sidebar genişliği çıkarılmış tam genişlik */
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.store-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-x: auto; /* Yatay scroll için */
+  min-width: 1000px; /* Minimum tablo genişliği */
+}
+
+.data-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.data-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.data-card:hover {
+  transform: translateY(-2px);
+}
+
+.data-card h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.data-card p {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* Tablo Stilleri */
+.stock-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  table-layout: fixed; /* Sabit kolon genişlikleri için */
+}
+
+.stock-table th,
+.stock-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap; /* Tek satırda gösterim */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Uzun içerikler için ... gösterimi */
+}
+
+.stock-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #333;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Kolon genişlikleri */
+.stock-table th:nth-child(1), /* Ürün Kodu */
+.stock-table td:nth-child(1) {
+  width: 120px;
+}
+
+.stock-table th:nth-child(2), /* Kategori */
+.stock-table td:nth-child(2) {
+  width: 120px;
+}
+
+.stock-table th:nth-child(3), /* Ürün Adı */
+.stock-table td:nth-child(3) {
+  width: 200px;
+}
+
+.stock-table th:nth-child(4), /* Beden */
+.stock-table td:nth-child(4) {
+  width: 80px;
+}
+
+.stock-table th:nth-child(5), /* Renk */
+.stock-table td:nth-child(5) {
+  width: 100px;
+}
+
+.stock-table th:nth-child(6), /* Miktar */
+.stock-table td:nth-child(6) {
+  width: 80px;
+}
+
+.stock-table th:nth-child(7), /* Birim Fiyat */
+.stock-table td:nth-child(7) {
+  width: 100px;
+}
+
+.stock-table th:nth-child(8), /* İşlemler */
+.stock-table td:nth-child(8) {
+  width: 160px;
+}
+
+.stock-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.action-buttons button {
+  padding: 6px 12px;
+  font-size: 14px;
+  min-width: 70px;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+/* Form Stilleri */
+.form-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.form-section form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  min-width: 1000px;
+}
+
+.form-section input {
+  flex: 1;
+  min-width: 150px;
+}
+
+input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Modal Stilleri */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px;
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal-content input {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.modal-actions button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-actions button[type="submit"] {
+  background-color: #28a745;
+}
+
+.modal-actions button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.modal-actions button[type="button"] {
+  background-color: #6c757d;
+}
+
+.modal-actions button[type="button"]:hover {
+  background-color: #5a6268;
+}
+
+.error {
+  color: #dc3545;
+  padding: 10px;
+  background-color: #f8d7da;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.search-section {
+  flex: 1;
+  max-width: 400px;
+  margin: 0;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0,123,255,0.25);
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+/* Header Section Styles */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+/* Store Title Styles */
+.store-title-container {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.store-title {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: linear-gradient(120deg, #2c3e50, #3498db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+} 
