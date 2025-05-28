@@ -1,10 +1,12 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MultiStoreIntegration.Application.Features.Commands.Return.Create.CreateReturn;
 using MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store1CreateSale;
 using MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store1CreateStock;
 using MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store1UpdateStock;
+using MultiStoreIntegration.Application.Features.Commands.User.Create.Store1CreateUser;
 using MultiStoreIntegration.Application.Features.Queries.Return.Store1GetAllReturn;
 using MultiStoreIntegration.Application.Features.Queries.Sale.GetAllSale.Store1GetAllSale;
 using MultiStoreIntegration.Application.Features.Queries.Stock.GetAll.Store1GetAll;
@@ -23,6 +25,7 @@ namespace Integration.API.Controllers
             _mediator = mediator;
         }
 
+        
         [HttpPost("StockCreate")]
         public async Task<IActionResult> CreateStock(Store1CreateStockCommandRequest createStockCommandRequest)
         {
@@ -79,8 +82,7 @@ namespace Integration.API.Controllers
                 return BadRequest(response);
         }
 
-
-
+        [Authorize(Roles = "Admin")]
         [HttpGet("StockGetAll")]
         public async Task<IActionResult> GetAllStock()
         {
@@ -112,6 +114,20 @@ namespace Integration.API.Controllers
             var query = new Store1GetAllReturnQueryRequest();
             var response = await _mediator.Send(query);
             return response.Success ? Ok(response) : NotFound(response);
+        }
+
+        [HttpPost("UserCreate")]
+        public async Task<IActionResult> CreateUser([FromBody] Store1CreateUserCommandRequest request)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var response = await _mediator.Send(request);
+
+            if (response.Success)
+                return Ok(response);
+
+            return BadRequest(response);
         }
 
     }

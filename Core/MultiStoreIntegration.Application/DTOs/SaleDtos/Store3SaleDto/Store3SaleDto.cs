@@ -14,5 +14,8 @@ namespace MultiStoreIntegration.Application.DTOs.SaleDtos.Store3SaleDto
         public string? CustomerName { get; set; }
         public string? CustomerPhone { get; set; }
         public string? PaymentMethod { get; set; }
+        public DateTime UpdatedDate { get; set; }
+
+        public DateTime CreatedDate { get; set; }
     }
 }

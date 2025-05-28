@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
 using MultiStoreIntegration.Persistence.Contexts;
@@ -26,6 +27,12 @@ using MultiStoreIntegration.Persistence.Repositories.Store3.Store3Sale;
 using MultiStoreIntegration.Domain.MongoDocuments.Store3MongoDocuments;
 using MultiStoreIntegration.Application.Repositories.Store3.Store3Return;
 using MultiStoreIntegration.Persistence.Repositories.Store3.Store3Return;
+using MultiStoreIntegration.Application.Repositories.Store1.Store1User;
+using MultiStoreIntegration.Persistence.Repositories.Store1.Store1User;
+using MultiStoreIntegration.Domain.Entities;
+using FluentValidation;
+using MultiStoreIntegration.Application.Common.Validations;
+using MultiStoreIntegration.Application.Features.Commands.User.Create.Store1CreateUser;
 
 namespace MultiStoreIntegration.Persistence
 {
@@ -89,6 +96,11 @@ namespace MultiStoreIntegration.Persistence
             services.AddScoped<Store1IReturnWriteRepository, Store1ReturnWriteRepository>();
             services.AddScoped<Store1ISaleReadRepository, Store1SaleReadRepository>();
             services.AddScoped<Store1ISaleWriteRepository, Store1SaleWriteRepository>();
+            services.AddScoped<Store1IUserReadRepository,Store1UserReadRepository>();
+            services.AddScoped<Store1IUserWriteRepository, Store1UserWriteRepository>();
+            services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+            services.AddScoped<IValidator<Store1CreateUserCommandRequest>, Store1CreateUserValidation>();
+
 
             // Store2 Repository Servislerini ekliyoruz
             services.AddScoped<Store2IStockReadRepository, Store2StockReadRepository>();

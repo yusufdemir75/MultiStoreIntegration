@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "MultiStoreIntegration.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MultiStoreIntegration.Application.Features.Commands.User.Login.AuthLogin.AuthLoginCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Integration.API.Controllers.Store1Controller",
     "Method": "GetStockPerCategory",
     "RelativePath": "api/Store1/CategoryStock",
@@ -98,6 +114,22 @@
       {
         "Name": "updateStockCommandRequest",
         "Type": "MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store1UpdateStock.Store1UpdateStockCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Integration.API.Controllers.Store1Controller",
+    "Method": "CreateUser",
+    "RelativePath": "api/Store1/UserCreate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MultiStoreIntegration.Application.Features.Commands.User.Create.Store1CreateUser.Store1CreateUserCommandRequest",
         "IsRequired": true
       }
     ],
@@ -306,22 +338,6 @@
       {
         "Name": "request",
         "Type": "MultiStoreIntegration.Application.Features.Commands.Stock.Update.Store3UpdateStock.Store3UpdateStockCommandRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Integration.API.Controllers.Store3StockController",
-    "Method": "CreateStock",
-    "RelativePath": "api/Store3Stock/create",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store3CreateStock.Store3CreateStockCommandRequest",
         "IsRequired": true
       }
     ],

@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.11.0" />
     <PackageReference Include="MediatR" Version="12.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
     <PackageReference Include="MongoDB.Driver" Version="3.3.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
@@ -23,6 +24,13 @@
     <Reference Include="MultiStoreIntegration.Infrastructure">
       <HintPath>..\..\Infrastructure\MultiStoreIntegration.Infrastructure\bin\Debug\net8.0\MultiStoreIntegration.Infrastructure.dll</HintPath>
     </Reference>
+    <Reference Include="MultiStoreIntegration.Persistence">
+      <HintPath>..\..\Infrastructure\MultiStoreIntegration.Persistence\obj\Debug\net8.0\ref\MultiStoreIntegration.Persistence.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Queries\Stock\GetByIdStock\" />
   </ItemGroup>
 
 </Project>

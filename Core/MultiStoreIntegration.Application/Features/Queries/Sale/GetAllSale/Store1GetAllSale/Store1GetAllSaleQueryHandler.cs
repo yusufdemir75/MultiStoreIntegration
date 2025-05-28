@@ -38,6 +38,9 @@ namespace MultiStoreIntegration.Application.Features.Queries.Sale.GetAllSale.Sto
                 CustomerPhone = sale.CustomerPhone,
                 PaymentMethod = sale.PaymentMethod,
                 TotalPrice = sale.TotalPrice,
+                CreatedDate = sale.CreatedDate,
+                UpdatedDate = sale.UpdatedDate,
+                
             }).ToList();
 
             return new Store1GetAllSaleQueryResponse
