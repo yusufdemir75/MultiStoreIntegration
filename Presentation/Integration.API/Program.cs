@@ -13,6 +13,7 @@ using MultiStoreIntegration.Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using MultiStoreIntegration.Infrastructure;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -67,6 +68,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization();
 
+builder.Services.AddInfrastructureServices();
 
 builder.Services.AddPersistenceServices(builder.Configuration);
 

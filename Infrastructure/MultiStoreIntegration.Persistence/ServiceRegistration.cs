@@ -33,6 +33,8 @@ using MultiStoreIntegration.Domain.Entities;
 using FluentValidation;
 using MultiStoreIntegration.Application.Common.Validations;
 using MultiStoreIntegration.Application.Features.Commands.User.Create.Store1CreateUser;
+using MultiStoreIntegration.Application.Abstractions.Services;
+
 
 namespace MultiStoreIntegration.Persistence
 {
@@ -109,6 +111,9 @@ namespace MultiStoreIntegration.Persistence
             services.AddScoped<Store2IReturnWriteRepository, Store2ReturnWriteRepository>();
             services.AddScoped<Store2ISaleReadRepository, Store2SaleReadRepository>();
             services.AddScoped<Store2ISaleWriteRepository, Store2SaleWriteRepository>();
+
+
+           
         }
     }
 }

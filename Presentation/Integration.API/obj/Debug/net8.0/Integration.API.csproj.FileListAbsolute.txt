@@ -1,3 +1,11 @@
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.csproj.AssemblyReference.cache
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.AssemblyInfoInputs.cache
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.AssemblyInfo.cs
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.csproj.CoreCompileInputs.cache
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.MvcApplicationPartsAssemblyInfo.cs
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.MvcApplicationPartsAssemblyInfo.cache
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.sourcelink.json
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\BuildHost-net472\Microsoft.Build.Locator.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\BuildHost-net472\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\BuildHost-net472\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe.config
@@ -63,6 +71,7 @@ C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\LightInject.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\MediatR.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Build.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Build.Framework.dll
@@ -83,6 +92,7 @@ C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -95,6 +105,12 @@ C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.VisualStudio.Setup.Configuration.Interop.dll
@@ -111,6 +127,7 @@ C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\NLog.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Npgsql.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Serilog.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
@@ -123,6 +140,7 @@ C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Snappier.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Renci.SshNet.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\SshNet.Security.Cryptography.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\StackExchange.Redis.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -134,6 +152,7 @@ C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\System.IO.Pipelines.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\System.Resources.Extensions.dll
@@ -250,14 +269,6 @@ C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\MultiStoreIntegration.Domain.pdb
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\MultiStoreIntegration.Infrastructure.pdb
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\MultiStoreIntegration.Persistence.pdb
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.csproj.AssemblyReference.cache
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.AssemblyInfoInputs.cache
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.AssemblyInfo.cs
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.csproj.CoreCompileInputs.cache
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.MvcApplicationPartsAssemblyInfo.cs
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.MvcApplicationPartsAssemblyInfo.cache
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.sourcelink.json
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\staticwebassets\msbuild.Integration.API.Microsoft.AspNetCore.StaticWebAssets.props
@@ -272,11 +283,3 @@ C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.pdb
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\Integration.API.genruntimeconfig.cache
 C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\obj\Debug\net8.0\ref\Integration.API.dll
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\MultiStoreIntegration\MultiStoreIntegration\Presentation\Integration.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

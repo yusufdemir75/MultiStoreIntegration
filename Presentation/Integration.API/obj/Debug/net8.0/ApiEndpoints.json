@@ -16,6 +16,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MultiStoreIntegration.API.Controllers.DashboardController",
+    "Method": "GetCategoryStockTotals",
+    "RelativePath": "api/Dashboard/category-stock-totals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Integration.API.Controllers.Store1Controller",
     "Method": "GetStockPerCategory",
     "RelativePath": "api/Store1/CategoryStock",

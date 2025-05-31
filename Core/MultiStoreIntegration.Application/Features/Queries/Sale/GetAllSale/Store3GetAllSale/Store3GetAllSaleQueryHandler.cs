@@ -26,7 +26,7 @@ namespace MultiStoreIntegration.Application.Features.Queries.Sale.GetAllSale.Sto
                 Quantity=sale.Quantity,
                 TotalPrice = sale.TotalPrice,
                 CreatedDate = sale.CreatedDate,
-                UpdatedDate = sale.UpdatedDate, bu 
+                UpdatedDate = sale.UpdatedDate, 
             }).ToList();
 
             return new Store3GetAllSaleQueryResponse
