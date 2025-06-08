@@ -70,7 +70,12 @@ namespace MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store3
                     CustomerName = request.CustomerName,
                     CustomerPhone = request.CustomerPhone,
                     PaymentMethod = request.PaymentMethod,
-                    CreatedDate = DateTime.UtcNow
+                    Size =stock.Size,
+                    Category = stock.Category,
+                    Color = stock.Color,
+                    ProductName = stock.ProductName,
+                    CreatedDate = request.CreatedDate,
+                    UpdatedDate = request.UpdatedDate,
                 };
 
                 var saleResult = await _saleWriteRepository.AddAsync(sale);

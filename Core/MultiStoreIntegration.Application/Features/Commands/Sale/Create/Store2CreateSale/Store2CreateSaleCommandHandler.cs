@@ -25,14 +25,14 @@ namespace MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store2
         }
 
         public async Task<Store2CreateSaleCommandResponse> Handle(Store2CreateSaleCommandRequest request, CancellationToken cancellationToken)
-        {  // Validasyon
+        {
+            // Validasyon
             var validator = new Store2CreateSaleValidation();
             var validationResult = validator.Validate(request);
             if (!validationResult.IsValid)
             {
                 throw new Store2CreateSaleException(string.Join(" | ", validationResult.Errors.Select(e => e.ErrorMessage)));
             }
-
             // Stok kontrolü
             var stock = await _store2StockReadRepository.GetByIdAsync(request.ProductId);
             if (stock == null)
@@ -54,6 +54,11 @@ namespace MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store2
                 CustomerName = request.CustomerName,
                 CustomerPhone = request.CustomerPhone,
                 PaymentMethod = request.PaymentMethod,
+                Size = stock.Size,
+                Category = stock.Category,
+                Color = stock.Color,
+                ProductName = stock.ProductName,
+                UpdatedDate =DateTime.UtcNow,
                 CreatedDate = DateTime.UtcNow
             };
 

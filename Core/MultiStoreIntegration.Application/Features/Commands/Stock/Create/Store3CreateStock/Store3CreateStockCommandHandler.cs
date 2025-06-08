@@ -31,8 +31,8 @@ namespace MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store
                 Color = request.Color,
                 Quantity = request.Quantity,
                 UnitPrice = request.UnitPrice,
-                CreatedDate = DateTime.UtcNow,
-                UpdatedDate = DateTime.UtcNow
+                CreatedDate = request.CreatedDate,
+                UpdatedDate = request.UpdatedDate,
             };
 
             var success = await _writeRepository.AddAsync(newStock);

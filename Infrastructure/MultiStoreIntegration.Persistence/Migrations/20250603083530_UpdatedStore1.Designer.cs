@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MultiStoreIntegration.Persistence.Migrations
 {
     [DbContext(typeof(Store1DbContext))]
-    [Migration("20250430122121_Store1UpdtedReturns2")]
-    partial class Store1UpdtedReturns2
+    [Migration("20250603083530_UpdatedStore1")]
+    partial class UpdatedStore1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -73,6 +73,12 @@ namespace MultiStoreIntegration.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<string>("Category")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Color")
+                        .HasColumnType("text");
+
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
@@ -88,8 +94,14 @@ namespace MultiStoreIntegration.Persistence.Migrations
                     b.Property<Guid>("ProductId")
                         .HasColumnType("uuid");
 
+                    b.Property<string>("ProductName")
+                        .HasColumnType("text");
+
                     b.Property<int>("Quantity")
                         .HasColumnType("integer");
+
+                    b.Property<string>("Size")
+                        .HasColumnType("text");
 
                     b.Property<float>("TotalPrice")
                         .HasColumnType("real");
@@ -111,29 +123,24 @@ namespace MultiStoreIntegration.Persistence.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<string>("Category")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Color")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("ProductCode")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("ProductName")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("integer");
 
                     b.Property<string>("Size")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<float>("UnitPrice")
@@ -145,6 +152,42 @@ namespace MultiStoreIntegration.Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("stock");
+                });
+
+            modelBuilder.Entity("MultiStoreIntegration.Domain.Entities.User", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
+
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("MultiStoreIntegration.Domain.Entities.Return", b =>

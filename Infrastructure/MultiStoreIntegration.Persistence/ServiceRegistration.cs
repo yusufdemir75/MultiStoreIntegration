@@ -52,7 +52,14 @@ namespace MultiStoreIntegration.Persistence
             services.AddKeyedSingleton<IMongoClient>("Store3MongoClient", (sp, _) =>
             {
                 var configuration = sp.GetRequiredService<IConfiguration>();
-                var connectionString = configuration["MongoDb:ConnectionString"];
+                var connectionString = configuration["Store3Mongo:ConnectionString"];
+                return new MongoClient(connectionString);
+            });
+
+            services.AddKeyedSingleton<IMongoClient>("Store4MongoClient", (sp, _) =>
+            {
+                var configuration = sp.GetRequiredService<IConfiguration>();
+                var connectionString = configuration["Store4Mongo:ConnectionString"];
                 return new MongoClient(connectionString);
             });
 
@@ -73,6 +80,12 @@ namespace MultiStoreIntegration.Persistence
             {
                 var mongoClient = sp.GetRequiredKeyedService<IMongoClient>("Store3MongoClient");
                 return new Store3MongoContext(mongoClient, configuration);
+            });
+
+            services.AddScoped<Store4MongoContext>(sp =>
+            {
+                var mongoClient = sp.GetRequiredKeyedService<IMongoClient>("Store4MongoClient");
+                return new Store4MongoContext(mongoClient, configuration);
             });
 
             services.AddScoped<WarehouseMongoDbContext>(sp =>

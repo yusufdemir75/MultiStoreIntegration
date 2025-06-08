@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MultiStoreIntegration.Persistence.Migrations.Store2Db
 {
     [DbContext(typeof(Store2DbContext))]
-    [Migration("20250430122213_Store2UpdtedReturns2")]
-    partial class Store2UpdtedReturns2
+    [Migration("20250603083617_UpdatedStore2")]
+    partial class UpdatedStore2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -73,6 +73,12 @@ namespace MultiStoreIntegration.Persistence.Migrations.Store2Db
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<string>("Category")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Color")
+                        .HasColumnType("text");
+
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
@@ -88,8 +94,14 @@ namespace MultiStoreIntegration.Persistence.Migrations.Store2Db
                     b.Property<Guid>("ProductId")
                         .HasColumnType("uuid");
 
+                    b.Property<string>("ProductName")
+                        .HasColumnType("text");
+
                     b.Property<int>("Quantity")
                         .HasColumnType("integer");
+
+                    b.Property<string>("Size")
+                        .HasColumnType("text");
 
                     b.Property<float>("TotalPrice")
                         .HasColumnType("real");
@@ -111,29 +123,24 @@ namespace MultiStoreIntegration.Persistence.Migrations.Store2Db
                         .HasColumnType("uuid");
 
                     b.Property<string>("Category")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Color")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("ProductCode")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("ProductName")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("integer");
 
                     b.Property<string>("Size")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<float>("UnitPrice")

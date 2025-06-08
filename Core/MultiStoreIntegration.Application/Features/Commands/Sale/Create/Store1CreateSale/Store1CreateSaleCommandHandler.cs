@@ -51,10 +51,15 @@ namespace MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store1
                 ProductId = request.ProductId,
                 Quantity = request.Quantity,
                 TotalPrice = request.Quantity * stock.UnitPrice,
+                Size = stock.Size,
+                Category = stock.Category,
+                Color = stock.Color,
+                ProductName = stock.ProductName,
                 CustomerName = request.CustomerName,
                 CustomerPhone = request.CustomerPhone,
                 PaymentMethod = request.PaymentMethod,
-                CreatedDate = DateTime.UtcNow
+                CreatedDate = request.CreatedDate,
+                UpdatedDate = request.UpdatedDate,
             };
 
             await _store1SaleWriteRepository.AddAsync(sale);

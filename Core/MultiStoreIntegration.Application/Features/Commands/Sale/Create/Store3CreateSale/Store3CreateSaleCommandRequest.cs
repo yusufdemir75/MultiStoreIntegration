@@ -11,5 +11,8 @@ namespace MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store3
         public string? CustomerName { get; set; }
         public string? CustomerPhone { get; set; }
         public string? PaymentMethod { get; set; }
+
+        public DateTime CreatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; }
     }
 }

@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MultiStoreIntegration.Persistence.Migrations.Store2Db
 {
     [DbContext(typeof(Store2DbContext))]
-    [Migration("20250430113720_Store2UpdtedReturns")]
-    partial class Store2UpdtedReturns
+    [Migration("20250603065453_CreatedStore2")]
+    partial class CreatedStore2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,11 +35,9 @@ namespace MultiStoreIntegration.Persistence.Migrations.Store2Db
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("CustomerName")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("CustomerPhone")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<Guid>("ProductId")
@@ -52,14 +50,10 @@ namespace MultiStoreIntegration.Persistence.Migrations.Store2Db
                         .HasColumnType("integer");
 
                     b.Property<string>("ReturnReason")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<Guid>("SaleId")
                         .HasColumnType("uuid");
-
-                    b.Property<float>("TotalPrice")
-                        .HasColumnType("real");
 
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("timestamp with time zone");
@@ -83,15 +77,12 @@ namespace MultiStoreIntegration.Persistence.Migrations.Store2Db
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("CustomerName")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("CustomerPhone")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("PaymentMethod")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<Guid>("ProductId")
@@ -120,29 +111,24 @@ namespace MultiStoreIntegration.Persistence.Migrations.Store2Db
                         .HasColumnType("uuid");
 
                     b.Property<string>("Category")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Color")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("ProductCode")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("ProductName")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("integer");
 
                     b.Property<string>("Size")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<float>("UnitPrice")

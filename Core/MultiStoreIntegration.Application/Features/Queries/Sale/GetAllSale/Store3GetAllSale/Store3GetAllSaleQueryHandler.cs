@@ -27,6 +27,10 @@ namespace MultiStoreIntegration.Application.Features.Queries.Sale.GetAllSale.Sto
                 TotalPrice = sale.TotalPrice,
                 CreatedDate = sale.CreatedDate,
                 UpdatedDate = sale.UpdatedDate, 
+                Size = sale.Size,
+                Category = sale.Category,
+                Color = sale.Color,
+                ProductName = sale.ProductName,
             }).ToList();
 
             return new Store3GetAllSaleQueryResponse

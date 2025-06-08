@@ -10,7 +10,10 @@ namespace MultiStoreIntegration.Domain.Entities
 
         public int Quantity { get; set; }
         public float TotalPrice { get; set; }
-
+        public string? Category { get; set; }
+        public string? ProductName { get; set; }
+        public string? Size { get; set; }
+        public string? Color { get; set; }
         public string? CustomerName { get; set; }
         public string? CustomerPhone { get; set; }
         public string? PaymentMethod { get; set; }

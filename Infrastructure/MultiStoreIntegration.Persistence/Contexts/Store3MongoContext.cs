@@ -10,7 +10,7 @@ namespace MultiStoreIntegration.Persistence
 
         public Store3MongoContext([FromKeyedServices("Store3MongoClient")] IMongoClient mongoClient, IConfiguration configuration)
         {
-            var databaseName = configuration["MongoDb:DatabaseName"]; 
+            var databaseName = configuration["Store3Mongo:DatabaseName"]; 
             _database = mongoClient.GetDatabase(databaseName);
         }
 

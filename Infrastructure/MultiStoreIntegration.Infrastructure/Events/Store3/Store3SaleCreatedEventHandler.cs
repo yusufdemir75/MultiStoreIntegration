@@ -39,6 +39,10 @@ namespace MultiStoreIntegration.Infrastructure.Events.Store3
                 CustomerPhone = sale.CustomerPhone,
                 PaymentMethod = sale.PaymentMethod,
                 CreatedDate = sale.CreatedDate,
+                Size = sale.Size,
+                Category = sale.Category,
+                Color = sale.Color,
+                ProductName = sale.ProductName,
                 UpdatedDate = DateTime.UtcNow
             };
 

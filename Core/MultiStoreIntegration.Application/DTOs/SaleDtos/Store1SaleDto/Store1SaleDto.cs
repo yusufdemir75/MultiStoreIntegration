@@ -11,8 +11,12 @@ namespace MultiStoreIntegration.Application.DTOs.SaleDtos.Store1SaleDto
         public Guid Id { get; set; }
         public int Quantity { get; set; }
         public float TotalPrice { get; set; }
-        public DateTime UpdatedDate { get; set; }
 
+        public string? Category { get; set; }
+        public string? ProductName { get; set; }
+        public string? Size { get; set; }
+        public string? Color { get; set; }
+        public DateTime UpdatedDate { get; set; }
 
         public DateTime CreatedDate { get; set; }
 

@@ -18,7 +18,17 @@
   {
     "ContainingType": "MultiStoreIntegration.API.Controllers.DashboardController",
     "Method": "GetCategoryStockTotals",
-    "RelativePath": "api/Dashboard/category-stock-totals",
+    "RelativePath": "api/Dashboard/categoryStockTotals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiStoreIntegration.API.Controllers.DashboardController",
+    "Method": "GetWeeklyTotalSales",
+    "RelativePath": "api/Dashboard/weekly-total-sales",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

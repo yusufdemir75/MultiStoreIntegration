@@ -11,5 +11,9 @@ namespace MultiStoreIntegration.Application.Features.Commands.Stock.Create.Store
         public string Color { get; set; }
         public int Quantity { get; set; }
         public int UnitPrice { get; set; }
+
+        public DateTime CreatedDate { get; set; }
+
+        public DateTime UpdatedDate { get; set; }
     }
 }

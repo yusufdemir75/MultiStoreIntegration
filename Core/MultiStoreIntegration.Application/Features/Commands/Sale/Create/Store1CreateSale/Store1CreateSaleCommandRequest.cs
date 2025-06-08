@@ -11,8 +11,15 @@ namespace MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store1
     {
         public Guid ProductId { get; set; }
         public int Quantity { get; set; }
+        public string? Category { get; set; }
+        public string? ProductName { get; set; }
+        public string? Size { get; set; }
+        public string? Color { get; set; }
         public string CustomerName { get; set; }
         public string CustomerPhone { get; set; }
         public string PaymentMethod { get; set; }
+
+        public DateTime CreatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; }
     }
 }
