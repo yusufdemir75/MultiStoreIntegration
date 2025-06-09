@@ -531,6 +531,10 @@ const Store2Operations = () => {
                                         <tr>
                                             <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Müşteri Adı</th>
                                             <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Telefon</th>
+                                            <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Kategori</th>
+                                            <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Ürün Adı</th>
+                                            <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Beden</th>
+                                            <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Renk</th>
                                             <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Miktar</th>
                                             <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Toplam Fiyat</th>
                                             <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Ödeme Yöntemi</th>
@@ -542,6 +546,10 @@ const Store2Operations = () => {
                                             <tr key={sale.id} className="hover:bg-gray-50">
                                                 <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900">{sale.customerName}</td>
                                                 <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900">{sale.customerPhone}</td>
+                                                <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900">{sale.category}</td>
+                                                <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900">{sale.productName}</td>
+                                                <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900">{sale.size}</td>
+                                                <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900">{sale.color}</td>
                                                 <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900">{sale.quantity}</td>
                                                 <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900">
                                                     {new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'TRY' }).format(sale.totalPrice)}

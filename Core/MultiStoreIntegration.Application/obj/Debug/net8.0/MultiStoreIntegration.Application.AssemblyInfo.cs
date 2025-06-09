@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiStoreIntegration.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf5db487ce1b23ea22046c080dc127b65f4d0385")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf2cbe77b1429f0fdc256d7e7187697ceca80249")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiStoreIntegration.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiStoreIntegration.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

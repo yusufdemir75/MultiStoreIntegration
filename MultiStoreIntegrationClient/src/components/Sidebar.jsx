@@ -9,7 +9,7 @@ const Sidebar = () => {
   const user = authService.getCurrentUser();
 
   const menuItems = [
-    { path: '/', label: 'Dashboard' },
+    { path: '/Dashboard', label: 'Dashboard' },
     { path: '/store1', label: 'Store 1' },
     { path: '/store2', label: 'Store 2' },
     { path: '/store3', label: 'Store 3' }
