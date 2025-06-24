@@ -13,7 +13,7 @@ namespace MultiStoreIntegration.Infrastructure
         {
             services.AddStackExchangeRedisCache(options =>
             {
-                options.Configuration = "localhost:6379"; // veya appsettings.json'dan al
+                options.Configuration = "localhost:6379"; 
             });
             services.AddSingleton<RedisContext>();
 

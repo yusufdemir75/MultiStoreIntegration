@@ -36,21 +36,17 @@ namespace MultiStoreIntegration.Application.Features.Events
                 UpdatedDate = DateTime.UtcNow
             };
 
-            // 1. Satışı Store1Sales tablosuna ekle
             var salesCollection = _warehouseContext.Database.GetCollection<SaleDocument>("Store1Sales");
             await salesCollection.InsertOneAsync(saleDocument, cancellationToken: cancellationToken);
 
-            // 2. Stoktan ilgili ürünün stoğunu bul
             var stockCollection = _warehouseContext.Database.GetCollection<StockDocument>("Store1Stocks");
 
             var stock = await stockCollection.Find(x => x.RelationalId == sale.ProductId).FirstOrDefaultAsync(cancellationToken);
 
-            // 3. Stok bulunduysa miktarı azalt
             if (stock != null)
             {
                 stock.Quantity -= sale.Quantity;
 
-                // 4. Güncellenmiş stok bilgisini Mongo'ya yaz
                 await stockCollection.ReplaceOneAsync(
                     filter: x => x.Id == stock.Id,
                     replacement: stock,
@@ -59,7 +55,6 @@ namespace MultiStoreIntegration.Application.Features.Events
             }
             else
             {
-                // Stok bulunamazsa log yazmak faydalı olabilir
                 Console.WriteLine($"Stok bulunamadı: ProductId={sale.ProductId}");
             }
         }

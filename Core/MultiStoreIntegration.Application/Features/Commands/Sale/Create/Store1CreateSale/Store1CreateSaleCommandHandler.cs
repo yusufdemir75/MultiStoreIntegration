@@ -33,7 +33,7 @@ namespace MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store1
                 throw new Store1CreateSaleException(string.Join(" | ", validationResult.Errors.Select(e => e.ErrorMessage)));
             }
 
-            // Stok kontrolü
+            
             var stock = await _store1StockReadRepository.GetByIdAsync(request.ProductId);
             if (stock == null)
                 throw new Store1CreateSaleException("Stokta böyle bir ürün bulunamadı.");
@@ -41,11 +41,9 @@ namespace MultiStoreIntegration.Application.Features.Commands.Sale.Create.Store1
             if (stock.Quantity < request.Quantity)
                 throw new Store1CreateSaleException("Stoktaki ürün miktarı yetersiz.");
 
-            // Stok güncelle
             stock.Quantity -= request.Quantity;
             stock.UpdatedDate = DateTime.UtcNow;
 
-            // Satış oluştur
             var sale = new Domain.Entities.Sale
             {
                 ProductId = request.ProductId,
